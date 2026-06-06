@@ -49,10 +49,10 @@ The project uses a synthetic dataset of 250 enrollment/setup records.
 
 One row represents:
 
-```text
 One practice/provider/payer/enrollment setup record
 
-Main fields include:
+### Main fields include:
+
 Practice Name
 Provider Name
 Individual NPI
@@ -78,7 +78,7 @@ Assigned Owner
 Follow-up Date
 Notes
 
-Tools Used:
+## Tools Used:
 
 Microsoft Excel
 Excel Tables
@@ -103,7 +103,7 @@ dashboard                          Final Excel dashboard
 insights_notes                     Business problem, insights, recommendations, assumptions, and project explanation
 
 
-Key Calculated Fields
+## Key Calculated Fields
 
 Field                            Purpose
 Aging Days                       Calculates how long an enrollment/setup record has been open or how long it took to complete
@@ -118,7 +118,7 @@ ERA Ready Flag                   Identifies records ready for electronic remitta
 Action Required Flag             Identifies records that need follow-up
 
 
-Dashboard KPIs
+## Dashboard KPIs
 
 KPI                              Value
 Total Records                    250
@@ -132,26 +132,22 @@ ERA Ready                        38
 
 
 
-Dashboard Sections
+## Dashboard Sections
 
 The dashboard includes the following sections:
-KPI Cards    Shows total records, ready records, pending records, blocked records, action-required records, SLA breaches, claims-ready records, and ERA-ready records.
-Enrollment Readiness Status Shows the distribution of records by Ready, Pending, and Blocked status.
-Top Enrollment Blockers
-Identifies the most common root causes preventing enrollment readiness.
-Blocked Records by Payer
-Shows which payers have the highest number of blocked records.
-SLA Breaches by Payer
-Shows which payers have the most records beyond the assumed 21-day SLA.
-Claims vs ERA Readiness
-Compares records ready for claims submission against records ready for ERA receipt.
-Action Required by Owner
-Shows pending and blocked workload by assigned owner.
-Key Insights
-Summarizes the main findings from the dashboard.
+
+KPI Cards                      Shows total records, ready records, pending records, blocked records, action-required                                        records,SLA breaches,claims-ready records, and ERA-ready records.
+Enrollment Readiness Status    Shows the distribution of records by Ready, Pending, and Blocked status.
+Top Enrollment Blockers        Identifies the most common root causes preventing enrollment readiness.
+Blocked Records by Payer       Shows which payers have the highest number of blocked records.
+SLA Breaches by Payer          Shows which payers have the most records beyond the assumed 21-day SLA.
+Claims vs ERA Readiness        Compares records ready for claims submission against records ready for ERA receipt.
+Action Required by Owner       Shows pending and blocked workload by assigned owner.
+Key Insights                   Summarizes the main findings from the dashboard.
 
 
-Key Insights
+## Key Insights
+
 193 of 250 records require action, showing that most records are not fully transaction-ready.
 158 records are beyond the 21-day SLA, indicating aging risk in the enrollment workflow.
 Clearinghouse portal gaps and individual-vs-group NPI issues are the top blockers.
@@ -159,7 +155,8 @@ Blue Cross, Humana, and Cigna have the highest blocked record counts.
 Claims readiness is higher than ERA readiness, with 48 claims-ready records compared with 38 ERA-ready records.
 
 
-Recommendations
+## Recommendations
+
 Validate credentialed NPI against enrolled NPI before submitting claims or ERA enrollment.
 Add a clearinghouse portal update checkpoint before marking records as ready.
 Create a Medicare/Medicaid checklist for PTAN, provider number, and additional enrollment requirements.
@@ -167,7 +164,8 @@ Review SLA-breached records weekly to reduce aging risk.
 Prioritize follow-up for payers with the highest blocked record counts.
 Track claims readiness and ERA readiness separately because a record may be claims-ready but not ERA-ready.
 
-Data Quality Checks
+## Data Quality Checks
+
 Before creating the dashboard, data quality checks were performed for:
 Total record count
 Blank Record IDs
@@ -184,7 +182,8 @@ Action required records
 These checks helped confirm that the dataset was ready for analysis.
 
 
-Dashboard Preview
+## Dashboard Preview
+
 Dashboard screenshot:
 screenshots/dashboard_overview.png
 Example:
@@ -202,7 +201,8 @@ README.md
 Project documentation
 
 
-Assumptions
+## Assumptions
+
 This project uses synthetic data only.
 No real patient, provider, payer, practice, employer, or production data is included.
 One row represents one practice/provider/payer/enrollment setup record.
@@ -211,14 +211,16 @@ Records marked “No blocker” are treated as not requiring action.
 Claims readiness and ERA readiness are tracked separately because a record may be ready for one workflow but not the other.
 
 
-Limitations
+## Limitations
+
 The dataset is synthetic and does not represent actual payer or practice performance.
 The SLA threshold of 21 days is assumed for this project.
 The dashboard is built in Excel and is intended for operational analysis and portfolio demonstration.
 The analysis focuses on enrollment readiness and does not include downstream claim payment, denial, or ERA posting data.
 
 
-Future Improvements
+## Future Improvements
+
 Possible future improvements include:
 Adding claim rejection and denial data
 Connecting enrollment readiness to actual claim submission outcomes
@@ -229,6 +231,7 @@ Adding slicers for payer, owner, enrollment type, and SLA status
 Automating refresh with Power Query
 
 
-Portfolio Summary
+## Portfolio Summary
+
 Built an Excel-based healthcare EDI enrollment readiness dashboard using 250 synthetic enrollment records to analyze claims enrollment, ERA enrollment, credentialing alignment, payer setup, NPI/PTAN issues, clearinghouse configuration, SLA breaches, payer-level blockers, and action-required records.
 This project demonstrates Excel data cleaning, calculated fields, PivotTables, PivotCharts, KPI design, dashboard layout, healthcare operations analysis, and business insight communication.
