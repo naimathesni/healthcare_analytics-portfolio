@@ -141,7 +141,7 @@ Main fields include:
 
 ## Dashboard Preview
 
-![Dashboard Overview](screenshots/dashboard_overview.png)
+![Dashboard Overview](01_enrollment_tracker_excel/screenshot/dashboard_overview.png)
 
 ---
 
