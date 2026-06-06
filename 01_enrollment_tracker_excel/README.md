@@ -231,9 +231,9 @@ These checks helped confirm that the dataset was ready for analysis.
 | File / Folder | Description |
 |---|---|
 | `dataset/sample_enrollment_data.xlsx` | Excel workbook containing raw data, cleaned data, pivots, dashboard, and insights |
-| `screenshots/dashboard_overview.png` | Screenshot of the final dashboard |
-| `screenshots/insights_notes.png` | Screenshot of the insights and recommendations sheet |
-| `screenshots/data_quality_checks.png` | Screenshot of the data quality checks |
+| `screenshot/dashboard_overview.png` | Screenshot of the final dashboard |
+| `screenshot/insights_notes.png` & `screenshot/insights_notes_continuation.png` | Screenshot of the insights and recommendations sheet |
+| `screenshot/data_quality_checks.png` | Screenshot of the data quality checks |
 | `README.md` | Project documentation |
 
 ---
