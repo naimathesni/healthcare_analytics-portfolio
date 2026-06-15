@@ -1,0 +1,187 @@
+Healthcare Claims & ERA SQL Analysis - SQL Insights
+
+Project Overview
+
+This project analyzes synthetic healthcare claims, ERA, denial, payer, provider, and enrollment data using MySQL.
+
+The goal is to identify claim outcome trends, payer performance issues, denial root causes, ERA/payment lag patterns, and enrollment-related risks that may affect revenue-cycle operations.
+
+Dataset Summary
+
+Tables analyzed:
+- payer
+- provider
+- enrollment
+- claims
+- era
+- denials
+
+Dataset size:
+- 10 payers
+- 40 providers
+- 400 enrollment records
+- 1,500 claims
+- 450 ERA records
+- 188 denial records
+
+Key Claims KPIs
+
+Total claims: 1,500
+Paid claims: 262
+Denied claims: 188
+Rejected claims: 525
+Pending claims: 338
+Submitted claims: 187
+
+Paid rate: 17.47%
+Denial rate: 12.53%
+Rejection rate: 35.00%
+
+Total billed amount: $1,105,200.00
+Total paid amount from ERA records: $99,910.59
+
+Insight 1: Rejected claims represent the largest claim issue category.
+
+Evidence:
+- 525 of 1,500 claims were rejected.
+- Rejection rate was 35.00%.
+- Rejected claims were higher than denied claims.
+
+Business Meaning:
+Rejected claims are an early revenue-cycle failure because they may not successfully reach full payer adjudication. If a claim rejects before being processed, payment and ERA flow are delayed before denial management can even begin.
+
+Recommended Action:
+Add pre-submission validation for payer setup, claims enrollment, NPI alignment, clearinghouse configuration, and claims readiness before claims are submitted.
+
+Insight 2: Problem claims create meaningful financial exposure.
+
+Evidence:
+- Rejected claims: 525
+- Denied claims: 188
+- Total rejected + denied claims: 713
+
+Business Meaning:
+Rejected and denied claims together represent a large portion of claims requiring operational follow-up. These records can delay payment, increase manual work, and create avoidable revenue-cycle friction.
+
+Recommended Action:
+Track rejected and denied claims together as a problem-claims metric, then segment by payer, provider, enrollment blocker, and claim source.
+
+Insight 3: Enrollment/Configuration is the top denial category.
+
+Evidence:
+- Total denials: 188
+- Enrollment/Configuration denials: 75
+- Enrollment/Configuration denials represent the largest denial category.
+
+Business Meaning:
+Enrollment/configuration denials are directly connected to payer setup, provider identifiers, NPI/PTAN issues, clearinghouse configuration, and claims/ERA enrollment readiness. These are operational issues that may be preventable.
+
+Recommended Action:
+Prioritize NPI validation, payer enrollment checks, clearinghouse portal updates, and Medicare/Medicaid setup requirements before claim submission.
+
+Insight 4: Most denials are preventable.
+
+Evidence:
+- Total denials: 188
+- Preventable denials: 151
+- Non-preventable denials: 37
+- Preventable denial rate: 80.32%
+
+Business Meaning:
+A high preventable denial rate suggests that many denials may be reduced through better front-end validation, operational controls, payer-specific checklists, and enrollment readiness reviews.
+
+Recommended Action:
+Create a preventable-denial review workflow focused on eligibility, enrollment/configuration, authorization, timely filing, and duplicate claim issues.
+
+Insight 5: ERA coverage is limited because many claims are not finalized.
+
+Evidence:
+- Total claims: 1,500
+- Claims with ERA: 450
+- Claims without ERA: 1,050
+- Total ERA records: 450
+
+Business Meaning:
+Claims without ERA are not always errors. Submitted, pending, and rejected claims may not have ERA records yet. However, payer-level ERA coverage should still be monitored because it can identify remittance flow, payer processing, or ERA enrollment issues.
+
+Recommended Action:
+Review claims without ERA by claim status and payer. Focus follow-up on finalized claims that should have ERA, and monitor payer-level ERA coverage trends.
+
+Insight 6: ERA lag should be monitored as an operational KPI.
+
+Evidence:
+- Average ERA lag: 20.16 days
+- Minimum ERA lag: 7 days
+- Maximum ERA lag: 34 days
+- ERA records over 21 days: 200
+
+Business Meaning:
+Delayed ERA receipt can create payment posting delays, manual follow-up, and uncertainty around claim resolution. ERA lag should be tracked by payer and enrollment readiness status.
+
+Recommended Action:
+Create a payer-level ERA lag report and prioritize payers with high average ERA lag and high claims-without-ERA volume.
+
+Insight 7: Enrollment readiness has direct claim outcome impact.
+
+Evidence:
+- Claims tied to action-required enrollment records: 1,200
+- Claims submitted while not claims-ready: 900
+- Claims tied to NPI mismatch: 187
+- Claims tied to clearinghouse gaps: 1,200
+
+Business Meaning:
+Claims submitted while enrollment is not ready create significant claims submission risk. Claims readiness should be validated before submission because claim rejection risk occurs before ERA or payment can happen.
+
+Recommended Action:
+Implement a pre-claim readiness checkpoint that verifies claims enrollment status, NPI match, payer setup, clearinghouse portal update, and blocker status.
+
+Insight 8: Clearinghouse portal gaps and payer setup issues appear as high-priority operational risks.
+
+Evidence:
+SQL analysis connected enrollment blockers to rejected/denied claims and issue billed amounts. Clearinghouse portal gaps, missing payer approval, wrong payer ID, Medicaid enrollment gaps, and credentialing issues appeared as important claim-risk drivers.
+
+Business Meaning:
+These blockers are not just enrollment-tracker issues. They can affect claims submission, denial risk, ERA flow, and payment timing.
+
+Recommended Action:
+Build an operational priority queue that ranks blocker reasons by rejected claims, denied claims, issue billed amount, and enrollment/configuration denial count.
+
+Most Useful SQL Scripts
+
+1. 05_claims_kpi_queries.sql
+Purpose: Calculates total claims, claim status counts, rates, billed amount, paid amount, and problem-claim volume.
+
+2. 06_join_queries.sql
+Purpose: Connects claims to payer, provider, enrollment, ERA, and denial context.
+
+3. 07_denial_analysis.sql
+Purpose: Analyzes denial categories, preventable denials, payer denial patterns, and denial financial impact.
+
+4. 08_era_payment_lag_analysis.sql
+Purpose: Analyzes ERA coverage, payment lag, claims without ERA, payer payment turnaround, and ERA readiness risk.
+
+5. 09_enrollment_claims_analysis.sql
+Purpose: Connects enrollment readiness to claims, rejections, denials, NPI mismatch, clearinghouse gaps, and payer setup risk.
+
+6. 10_cte_payer_performance.sql
+Purpose: Uses CTEs to combine claim, ERA, denial, and enrollment metrics into payer-level performance reporting.
+
+7. 11_window_functions.sql
+Purpose: Uses ranking, running totals, percent-of-total calculations, and Top-N analysis.
+
+8. 12_business_questions.sql
+Purpose: Answers stakeholder-style business questions with SQL.
+
+Analyst Takeaway
+
+The most important finding is that claim outcomes should not be analyzed in isolation. Rejections, denials, ERA lag, and claims without ERA become more useful when connected to payer, provider, enrollment readiness, NPI match status, clearinghouse configuration, and blocker reasons.
+
+Operational Recommendations
+
+1. Validate claims readiness before claim submission.
+2. Monitor rejected claims separately from denied claims because rejection is an earlier revenue-cycle failure.
+3. Prioritize Enrollment/Configuration denials because they are the largest denial category.
+4. Track preventable denials and create operational workflows to reduce them.
+5. Monitor payer-level ERA coverage and ERA lag.
+6. Rank enrollment blockers by rejected claims, denied claims, and issue billed amount.
+7. Track claims readiness and ERA readiness separately.

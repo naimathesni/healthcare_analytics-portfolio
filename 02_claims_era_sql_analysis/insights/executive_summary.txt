@@ -1,0 +1,203 @@
+Healthcare Claims & ERA SQL Analysis - Executive Summary
+
+Project Overview
+
+This project uses MySQL to analyze synthetic healthcare revenue-cycle data across claims, ERA records, denials, payer information, provider information, and enrollment readiness.
+
+The purpose of the project is to identify operational issues that may affect claim submission, payer adjudication, ERA receipt, payment timing, and denial management.
+
+Business Problem
+
+Healthcare organizations need visibility into claim outcomes, payer performance, denial root causes, ERA/payment lag, and enrollment-related risks.
+
+Claims and ERA workflows can be disrupted when:
+- Claims are submitted before enrollment is ready
+- Provider NPI or PTAN information does not match payer setup
+- Clearinghouse configuration is incomplete
+- Payer ID or routing is incorrect
+- ERA readiness is incomplete
+- Payer-specific enrollment requirements are missed
+- Denials are preventable but not monitored effectively
+
+This SQL analysis helps identify where those risks appear in claims, denial, ERA, payer, provider, and enrollment data.
+
+Dataset
+
+The project uses synthetic data only.
+
+Tables:
+- payer
+- provider
+- enrollment
+- claims
+- era
+- denials
+
+Record counts:
+- 10 payers
+- 40 providers
+- 400 enrollment records
+- 1,500 claims
+- 450 ERA records
+- 188 denial records
+
+Tools Used
+
+- MySQL
+- MySQL Workbench
+- VS Code
+- SQL scripts
+- Relational database design
+- Joins
+- CTEs
+- Window functions
+- Aggregations
+- CASE logic
+- Date calculations
+- Data quality checks
+
+SQL Skills Demonstrated
+
+- CREATE DATABASE
+- CREATE TABLE
+- Primary keys
+- Foreign keys
+- INSERT statements
+- Data quality checks
+- SELECT / WHERE / ORDER BY / LIMIT
+- GROUP BY
+- CASE statements
+- INNER JOIN
+- LEFT JOIN
+- LEFT JOIN + IS NULL audit checks
+- CTEs
+- Window functions
+- RANK
+- DENSE_RANK
+- ROW_NUMBER
+- SUM OVER
+- LAG
+- Date calculations using DATEDIFF
+- KPI calculations
+- Business-question-driven SQL analysis
+
+Key KPIs
+
+Claims:
+- Total claims: 1,500
+- Paid claims: 262
+- Denied claims: 188
+- Rejected claims: 525
+- Pending claims: 338
+- Submitted claims: 187
+- Paid rate: 17.47%
+- Denial rate: 12.53%
+- Rejection rate: 35.00%
+- Total billed amount: $1,105,200.00
+
+ERA:
+- Total ERA records: 450
+- Claims with ERA: 450
+- Claims without ERA: 1,050
+- Total paid amount: $99,910.59
+- Average ERA lag: 20.16 days
+- ERA records over 21 days: 200
+
+Denials:
+- Total denials: 188
+- Total denied amount: $72,518.44
+- Preventable denials: 151
+- Non-preventable denials: 37
+- Enrollment/Configuration denials: 75
+
+Enrollment Impact:
+- Claims tied to action-required enrollment records: 1,200
+- Claims submitted while not claims-ready: 900
+- Claims tied to NPI mismatch: 187
+- Claims tied to clearinghouse gaps: 1,200
+
+Key Findings
+
+1. Rejected claims are a major revenue-cycle risk.
+
+The rejection rate is 35.00%, with 525 rejected claims out of 1,500 total claims.
+
+Rejected claims represent an early failure in the revenue cycle because they may not reach full payer adjudication. This can delay payment and ERA flow before denial management begins.
+
+2. Enrollment/Configuration is the largest denial category.
+
+Enrollment/Configuration denials account for 75 of 188 total denials.
+
+This category is directly connected to payer setup, NPI/PTAN validation, claims enrollment, ERA enrollment, and clearinghouse configuration.
+
+3. Most denials are preventable.
+
+151 of 188 denials are marked preventable.
+
+This suggests that improved front-end controls, payer-specific checklists, and enrollment validation could reduce avoidable denial volume.
+
+4. ERA/payment lag should be monitored by payer.
+
+The average ERA lag is 20.16 days, and 200 ERA records are over 21 days.
+
+Delayed ERA receipt can create payment posting delays, follow-up work, and reduced visibility into claim resolution.
+
+5. Enrollment readiness is connected to claims risk.
+
+1,200 claims are tied to action-required enrollment records, and 900 claims were submitted while the enrollment record was not claims-ready.
+
+This supports the need for pre-submission claims readiness validation.
+
+6. NPI mismatch and clearinghouse gaps are operational risks.
+
+Claims tied to NPI mismatch and clearinghouse gaps indicate that provider identifiers and clearinghouse setup should be validated before claim submission and ERA expectations.
+
+Recommendations
+
+1. Add a claims-readiness validation checkpoint before claim submission.
+
+Validate credentialing status, claims enrollment status, NPI match status, payer setup, clearinghouse configuration, and blocker reason before claims are sent.
+
+2. Monitor rejected claims separately from denied claims.
+
+Rejected claims should be treated as a front-end claims submission issue, while denied claims should be analyzed after payer adjudication.
+
+3. Prioritize Enrollment/Configuration denials.
+
+This denial category is strongly tied to operational setup and may be reduced through payer enrollment and clearinghouse readiness controls.
+
+4. Create a payer-level performance report.
+
+Track payer rejection rate, denial rate, ERA lag, claims without ERA, preventable denials, and enrollment readiness issues together.
+
+5. Build an enrollment blocker priority queue.
+
+Rank blocker reasons by rejected claims, denied claims, issue billed amount, and enrollment/configuration denial count.
+
+6. Track claims readiness and ERA readiness separately.
+
+A provider/payer record may be ready for claims but not ready for ERA, or vice versa. These should be monitored as separate operational controls.
+
+Limitations
+
+- The dataset is synthetic and does not represent actual payer, provider, patient, employer, or production data.
+- The analysis focuses on claims, ERA, denials, and enrollment readiness, not full AR follow-up or payment posting.
+- The synthetic dataset intentionally includes operational issues for analysis practice.
+- Financial results are for portfolio demonstration only.
+- The payer performance score is a custom prioritization model and would need stakeholder validation in a real business environment.
+
+Future Improvements
+
+- Add claim line-level data with CPT, diagnosis, and modifier fields.
+- Add AR aging and payment posting data.
+- Add eligibility transaction data such as 270/271.
+- Add claim status transaction data such as 276/277.
+- Build a Power BI dashboard using the same claims, ERA, denial, and enrollment model.
+- Automate data extraction and cleaning using Python.
+- Add monthly trend visuals and payer drilldowns.
+
+Portfolio Summary
+
+Built a MySQL-based healthcare claims and ERA analysis project using synthetic claims, remittance, denial, payer, provider, and enrollment data.
+
+The project demonstrates SQL database design, joins, data quality checks, KPI calculations, denial analysis, ERA lag analysis, payer performance reporting, enrollment impact analysis, CTEs, window functions, and business-question-driven SQL analysis.
