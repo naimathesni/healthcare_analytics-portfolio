@@ -119,33 +119,6 @@ This project will use the claims/ERA SQL dataset to build an interactive Power B
 
 ---
 
-### 4. ClinicalTrials.gov Trial Analytics Pipeline
-
-**Tool:** Python  
-**Focus:** Public clinical trial data, API extraction, JSON normalization, trial status analysis, sponsor analysis, phase analysis, condition analysis, and trial duration metrics.
-
-This project will use public ClinicalTrials.gov data to build a Python pipeline for collecting, cleaning, analyzing, and exporting clinical trial data.
-
----
-
-### 5. openFDA Drug Safety Data Pipeline
-
-**Tool:** Python  
-**Focus:** Public FDA data, API extraction, adverse event reporting patterns, drug safety summaries, reaction terms, serious outcomes, and responsible interpretation.
-
-This project will use public openFDA data to analyze drug safety reporting patterns. The project will clearly state that adverse event reports do not prove causality.
-
----
-
-### 6. Clearinghouse Migration Business Analyst Case Study
-
-**Tool:** Business Analysis Documentation  
-**Focus:** BRD, user stories, acceptance criteria, process maps, UAT test cases, risk log, and KPI dashboard mockup.
-
-This case study will model a clearinghouse migration scenario for claims and ERA workflows.
-
----
-
 ## Skills Demonstrated
 
 - Healthcare EDI workflow knowledge
