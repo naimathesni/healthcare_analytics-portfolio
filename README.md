@@ -2,7 +2,7 @@
 
 This portfolio showcases healthcare analytics projects focused on EDI enrollment, claims enrollment, ERA enrollment, payer setup, clearinghouse readiness, revenue-cycle operations, SQL analysis, Excel dashboards, Power BI, Python, and business analysis.
 
-My background is in healthcare Revenue cycle EDI Enrollment and I would like to share a glimpse what it is like through these projects.
+My background is in healthcare Revenue cycle EDI Enrollment and I would like to share a glimpse of what it is like through these projects.
 
 All datasets in this portfolio are synthetic or public-safe. No real patient, provider, payer, employer, practice, or production data is included.
 
