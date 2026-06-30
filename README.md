@@ -154,6 +154,45 @@ This project will use the claims/ERA SQL dataset to build an interactive Power B
 
 ---
 
+### 3. Healthcare Claims, ERA & Denial Analytics Dashboard
+
+**Tool:** Power BI  
+**Status:** Complete  
+**Focus:** Claims outcomes, rejected claims, denied claims, ERA coverage, payment lag, payer performance, denial categories, enrollment readiness, NPI mismatch, clearinghouse gaps, and provider/practice drilldowns.
+
+This project uses synthetic healthcare revenue-cycle data exported from MySQL to build a multi-page Power BI dashboard for claims, ERA, denials, payer performance, provider performance, and enrollment impact analysis.
+
+The dashboard includes:
+
+- Executive Summary
+- Payer Performance
+- Denial Analysis
+- ERA & Payment Analysis
+- Enrollment Impact
+- Provider / Practice Drilldown
+
+**Key KPIs:**
+
+| KPI | Value |
+|---|---:|
+| Total Claims | 1,500 |
+| Rejected Claims | 525 |
+| Denied Claims | 188 |
+| Rejection Rate | 35.00% |
+| Denial Rate | 12.53% |
+| Total ERA Records | 450 |
+| Claims Without ERA | 1,050 |
+| Average ERA Lag | 20.16 days |
+| Preventable Denials | 151 |
+| Claims Submitted While Not Claims-Ready | 900 |
+
+**Key takeaway:**  
+The dashboard shows that rejected claims are a major revenue-cycle risk, Enrollment/Configuration is the top denial category, ERA lag should be monitored by payer, and claims readiness should be validated before submission.
+
+[View Project](03_claims_era_powerbi_dashboard)
+
+---
+
 ## Data Privacy Note
 
 All projects use synthetic or public-safe data only.
