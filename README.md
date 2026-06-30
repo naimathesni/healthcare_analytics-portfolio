@@ -108,52 +108,6 @@ Rejected claims were a major revenue-cycle risk, and Enrollment/Configuration wa
 
 ---
 
-## Upcoming Projects
-
-### 3. Healthcare Claims, ERA & Denial Analytics Dashboard
-
-**Tool:** Power BI  
-**Focus:** Claims KPIs, payer performance, denial trends, ERA lag, enrollment impact, and executive dashboarding.
-
-This project will use the claims/ERA SQL dataset to build an interactive Power BI dashboard with executive summary, payer performance, denial analysis, ERA/payment lag, and provider/practice drilldowns.
-
----
-
-## Skills Demonstrated
-
-- Healthcare EDI workflow knowledge
-- Claims enrollment analysis
-- ERA enrollment analysis
-- Payer setup and clearinghouse readiness
-- Revenue-cycle operations analytics
-- Excel dashboards
-- PivotTables and PivotCharts
-- Data quality checks
-- MySQL database design
-- SQL joins
-- SQL aggregations
-- CTEs
-- Window functions
-- Denial root-cause analysis
-- ERA/payment lag analysis
-- Business-question-driven analysis
-- Analyst documentation
-- Portfolio storytelling
-
----
-
-## Tools Used
-
-- Microsoft Excel
-- MySQL
-- MySQL Workbench
-- VS Code
-- GitHub
-- Power BI, upcoming
-- Python, upcoming
-
----
-
 ### 3. Healthcare Claims, ERA & Denial Analytics Dashboard
 
 **Tool:** Power BI  
