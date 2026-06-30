@@ -1,0 +1,159 @@
+Healthcare Claims, ERA & Denial Analytics Dashboard - Power BI Insights
+
+Project Overview
+
+This Power BI dashboard analyzes synthetic healthcare revenue-cycle data across claims, ERA records, denials, payers, providers, and enrollment readiness.
+
+The purpose of the dashboard is to help revenue-cycle, EDI, and operations teams monitor claim outcomes, rejection risk, denial patterns, ERA/payment lag, payer performance, provider/practice performance, and enrollment-related claim risk.
+
+Dashboard Pages
+
+1. Executive Summary
+2. Payer Performance
+3. Denial Analysis
+4. ERA & Payment Analysis
+5. Enrollment Impact
+6. Provider / Practice Drilldown
+
+Dataset Summary
+
+Tables used:
+- dim_payer
+- dim_provider
+- dim_enrollment
+- fact_claims
+- fact_era
+- fact_denials
+
+Record counts:
+- Payers: 10
+- Providers: 40
+- Enrollment records: 400
+- Claims: 1,500
+- ERA records: 450
+- Denial records: 188
+
+Key KPIs
+
+Claims:
+- Total Claims: 1,500
+- Paid Claims: 262
+- Denied Claims: 188
+- Rejected Claims: 525
+- Rejection Rate: 35.00%
+- Denial Rate: 12.53%
+- Total Billed Amount: $1,105,200.00
+
+ERA:
+- Total ERA Records: 450
+- Claims With ERA: 450
+- Claims Without ERA: 1,050
+- Total Paid Amount: $99,910.59
+- Average ERA Lag: 20.16 days
+- ERA Records Over 21 Days: 200
+
+Denials:
+- Total Denials: 188
+- Total Denied Amount: $72,518.44
+- Preventable Denials: 151
+- Enrollment/Configuration Denials: 75
+
+Enrollment Impact:
+- Claims Tied to Action-Required Enrollment: 1,200
+- Claims Submitted While Not Claims-Ready: 900
+- Claims Tied to NPI Mismatch: 187
+- Claims Tied to Clearinghouse Gap: 1,200
+
+Executive Summary Insights
+
+1. Rejected claims are the largest claim issue category, with 525 rejected claims and a 35.00% rejection rate.
+
+2. Enrollment/Configuration is the top denial category, indicating payer setup, NPI/PTAN, claims enrollment, ERA readiness, and clearinghouse configuration risk.
+
+3. 1,050 claims do not have ERA records. Many are submitted, pending, or rejected, but payer-level ERA coverage should still be monitored.
+
+4. 200 ERA records are over 21 days, showing potential remittance turnaround risk.
+
+5. 900 claims were submitted while not claims-ready, supporting claims-readiness validation before submission.
+
+Payer Performance Insights
+
+1. Payer performance should not be evaluated only by total claim count.
+
+2. Rejection rate, denial rate, average ERA lag, claims without ERA, and total paid amount give a more complete payer performance view.
+
+3. Some payers show higher rejection rates even when total claim volume is similar.
+
+4. Payers with high ERA lag may create payment posting delays and additional follow-up work.
+
+5. Payer-level analysis helps operations prioritize which payer workflows should be reviewed first.
+
+Denial Analysis Insights
+
+1. Enrollment/Configuration is the largest denial category.
+
+2. Most denials are marked preventable, which suggests opportunity for front-end validation and operational controls.
+
+3. Denied amount should be reviewed along with denial count because high-volume categories are not always the highest financial-impact categories.
+
+4. Payer-level denial patterns can help prioritize follow-up with payers that generate high denial volume or preventable denials.
+
+ERA & Payment Analysis Insights
+
+1. 450 claims have ERA records, while 1,050 claims do not have ERA records.
+
+2. Claims without ERA are not always errors. Submitted, pending, and rejected claims may not have ERA yet.
+
+3. Average ERA lag is 20.16 days, with 200 ERA records taking more than 21 days.
+
+4. Payers with high average ERA lag may create payment posting delays and additional follow-up work.
+
+5. ERA readiness should be monitored separately from claims readiness because successful claim submission does not always mean remittance flow is complete.
+
+Enrollment Impact Insights
+
+1. 1,200 claims are tied to action-required enrollment records, showing significant operational risk.
+
+2. 900 claims were submitted while not claims-ready, which can create front-end rejection and denial risk.
+
+3. 187 claims are tied to NPI mismatch, highlighting the importance of credentialed NPI vs enrolled NPI validation.
+
+4. 1,200 claims are tied to clearinghouse gaps, suggesting clearinghouse portal and configuration readiness should be validated before go-live.
+
+5. Claims readiness risk is more urgent than ERA readiness risk because claims must submit successfully before ERA can be received.
+
+Provider / Practice Drilldown Insights
+
+1. Practices with high rejected claim counts should be reviewed for claims submission readiness, payer setup, and clearinghouse configuration issues.
+
+2. Specialty-level denial patterns can help identify workflow or documentation areas that may need closer review.
+
+3. Paid amount by practice helps distinguish high-volume practices from high-financial-impact practices.
+
+4. Provider/practice drilldowns help operations prioritize targeted follow-up instead of treating all claim issues the same.
+
+Recommendations
+
+1. Add claims-readiness validation before claim submission.
+
+2. Monitor rejected claims separately from denied claims because rejected claims represent an earlier revenue-cycle failure.
+
+3. Prioritize Enrollment/Configuration denials because they are the largest denial category.
+
+4. Validate credentialed NPI against enrolled NPI before payer submission.
+
+5. Create payer-specific enrollment and clearinghouse setup checklists.
+
+6. Monitor payer-level rejection rate, denial rate, ERA lag, and claims without ERA together.
+
+7. Track claims readiness and ERA readiness separately.
+
+8. Build an operational priority queue using rejected claims, denied claims, issue billed amount, preventable denials, and enrollment/configuration denial counts.
+
+Analyst Takeaway
+
+The main takeaway from this dashboard is that claims, ERA, denials, and enrollment readiness should not be analyzed in isolation.
+
+A useful healthcare revenue-cycle dashboard should connect claim outcomes to payer, provider, enrollment readiness, denial category, ERA status, and payment lag.
+
+This dashboard shows that payer setup, claims enrollment, ERA readiness, NPI/PTAN validation, and clearinghouse configuration can affect claim submission, denial risk, remittance flow, and payment timing.

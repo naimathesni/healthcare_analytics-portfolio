@@ -1,0 +1,189 @@
+denial_id,claim_id,denial_code,denial_category,denial_reason,denied_amount,denial_date,preventable_flag
+DEN000010,CLM000010,CO-29,"Timely Filing","Claim submitted after timely filing limit",211.50,2026-02-02,Yes
+DEN000011,CLM000011,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",263.38,2026-02-05,Yes
+DEN000012,CLM000012,CO-27,Eligibility,"Patient coverage inactive or eligibility not verified",320.93,2026-02-02,Yes
+DEN000029,CLM000029,CO-18,Duplicate,"Duplicate claim submission",813.80,2026-02-13,Yes
+DEN000031,CLM000031,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",633.38,2026-02-13,Yes
+DEN000050,CLM000050,CO-16,Coding,"Invalid or incomplete coding information",337.50,2026-03-24,No
+DEN000051,CLM000051,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",403.38,2026-03-27,Yes
+DEN000052,CLM000052,CO-29,"Timely Filing","Claim submitted after timely filing limit",474.93,2026-03-30,Yes
+DEN000069,CLM000069,CO-50,"Medical Necessity","Service not considered medically necessary",215.80,2026-04-04,No
+DEN000071,CLM000071,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",173.38,2026-04-10,Yes
+DEN000090,CLM000090,CO-27,Eligibility,"Patient coverage inactive or eligibility not verified",463.50,2026-04-15,Yes
+DEN000091,CLM000091,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",543.38,2026-04-18,Yes
+DEN000092,CLM000092,CO-16,Coding,"Invalid or incomplete coding information",628.93,2026-04-21,No
+DEN000109,CLM000109,CO-197,Authorization,"Prior authorization missing or invalid",397.80,2026-05-24,Yes
+DEN000111,CLM000111,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",313.38,2026-05-30,Yes
+DEN000130,CLM000130,CO-29,"Timely Filing","Claim submitted after timely filing limit",49.50,2026-06-10,Yes
+DEN000131,CLM000131,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",83.38,2026-06-13,Yes
+DEN000132,CLM000132,CO-27,Eligibility,"Patient coverage inactive or eligibility not verified",122.93,2026-06-10,Yes
+DEN000149,CLM000149,CO-18,Duplicate,"Duplicate claim submission",579.80,2026-06-21,Yes
+DEN000151,CLM000151,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",453.38,2026-01-22,Yes
+DEN000170,CLM000170,CO-16,Coding,"Invalid or incomplete coding information",175.50,2026-02-02,No
+DEN000171,CLM000171,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",223.38,2026-02-05,Yes
+DEN000172,CLM000172,CO-29,"Timely Filing","Claim submitted after timely filing limit",276.93,2026-02-08,Yes
+DEN000189,CLM000189,CO-50,"Medical Necessity","Service not considered medically necessary",761.80,2026-03-13,No
+DEN000191,CLM000191,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",593.38,2026-03-19,Yes
+DEN000210,CLM000210,CO-27,Eligibility,"Patient coverage inactive or eligibility not verified",301.50,2026-03-24,Yes
+DEN000211,CLM000211,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",363.38,2026-03-27,Yes
+DEN000212,CLM000212,CO-16,Coding,"Invalid or incomplete coding information",430.93,2026-03-30,No
+DEN000229,CLM000229,CO-197,Authorization,"Prior authorization missing or invalid",163.80,2026-04-04,Yes
+DEN000231,CLM000231,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",133.38,2026-04-10,Yes
+DEN000250,CLM000250,CO-29,"Timely Filing","Claim submitted after timely filing limit",427.50,2026-05-19,Yes
+DEN000251,CLM000251,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",503.38,2026-05-22,Yes
+DEN000252,CLM000252,CO-27,Eligibility,"Patient coverage inactive or eligibility not verified",584.93,2026-04-21,Yes
+DEN000269,CLM000269,CO-18,Duplicate,"Duplicate claim submission",345.80,2026-05-30,Yes
+DEN000271,CLM000271,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",273.38,2026-05-30,Yes
+DEN000290,CLM000290,CO-16,Coding,"Invalid or incomplete coding information",553.50,2026-06-10,No
+DEN000291,CLM000291,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",643.38,2026-06-13,Yes
+DEN000292,CLM000292,CO-29,"Timely Filing","Claim submitted after timely filing limit",78.93,2026-06-16,Yes
+DEN000309,CLM000309,CO-50,"Medical Necessity","Service not considered medically necessary",527.80,2026-01-22,No
+DEN000311,CLM000311,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",413.38,2026-01-28,Yes
+DEN000330,CLM000330,CO-27,Eligibility,"Patient coverage inactive or eligibility not verified",139.50,2026-03-02,Yes
+DEN000331,CLM000331,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",183.38,2026-03-05,Yes
+DEN000332,CLM000332,CO-16,Coding,"Invalid or incomplete coding information",232.93,2026-03-08,No
+DEN000349,CLM000349,CO-197,Authorization,"Prior authorization missing or invalid",709.80,2026-03-13,Yes
+DEN000351,CLM000351,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",553.38,2026-03-19,Yes
+DEN000370,CLM000370,CO-29,"Timely Filing","Claim submitted after timely filing limit",265.50,2026-03-30,Yes
+DEN000371,CLM000371,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",323.38,2026-04-02,Yes
+DEN000372,CLM000372,CO-27,Eligibility,"Patient coverage inactive or eligibility not verified",386.93,2026-03-30,Yes
+DEN000389,CLM000389,CO-18,Duplicate,"Duplicate claim submission",891.80,2026-05-08,Yes
+DEN000391,CLM000391,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",93.38,2026-05-08,Yes
+DEN000410,CLM000410,CO-16,Coding,"Invalid or incomplete coding information",391.50,2026-05-19,No
+DEN000411,CLM000411,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",463.38,2026-05-22,Yes
+DEN000412,CLM000412,CO-29,"Timely Filing","Claim submitted after timely filing limit",540.93,2026-05-25,Yes
+DEN000429,CLM000429,CO-50,"Medical Necessity","Service not considered medically necessary",293.80,2026-05-30,No
+DEN000431,CLM000431,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",233.38,2026-06-05,Yes
+DEN000450,CLM000450,CO-27,Eligibility,"Patient coverage inactive or eligibility not verified",517.50,2026-01-11,Yes
+DEN000451,CLM000451,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",603.38,2026-01-14,Yes
+DEN000452,CLM000452,CO-16,Coding,"Invalid or incomplete coding information",694.93,2026-01-17,No
+DEN000469,CLM000469,CO-197,Authorization,"Prior authorization missing or invalid",475.80,2026-02-19,Yes
+DEN000471,CLM000471,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",373.38,2026-02-25,Yes
+DEN000490,CLM000490,CO-29,"Timely Filing","Claim submitted after timely filing limit",103.50,2026-03-08,Yes
+DEN000491,CLM000491,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",143.38,2026-03-11,Yes
+DEN000492,CLM000492,CO-27,Eligibility,"Patient coverage inactive or eligibility not verified",188.93,2026-03-08,Yes
+DEN000509,CLM000509,CO-18,Duplicate,"Duplicate claim submission",657.80,2026-03-19,Yes
+DEN000511,CLM000511,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",513.38,2026-03-19,Yes
+DEN000530,CLM000530,CO-16,Coding,"Invalid or incomplete coding information",229.50,2026-04-27,No
+DEN000531,CLM000531,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",283.38,2026-04-30,Yes
+DEN000532,CLM000532,CO-29,"Timely Filing","Claim submitted after timely filing limit",342.93,2026-04-05,Yes
+DEN000549,CLM000549,CO-50,"Medical Necessity","Service not considered medically necessary",839.80,2026-05-08,No
+DEN000551,CLM000551,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",653.38,2026-05-14,Yes
+DEN000570,CLM000570,CO-27,Eligibility,"Patient coverage inactive or eligibility not verified",355.50,2026-05-19,Yes
+DEN000571,CLM000571,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",423.38,2026-05-22,Yes
+DEN000572,CLM000572,CO-16,Coding,"Invalid or incomplete coding information",496.93,2026-05-25,No
+DEN000589,CLM000589,CO-197,Authorization,"Prior authorization missing or invalid",241.80,2026-05-30,Yes
+DEN000591,CLM000591,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",193.38,2026-06-05,Yes
+DEN000610,CLM000610,CO-29,"Timely Filing","Claim submitted after timely filing limit",481.50,2026-02-14,Yes
+DEN000611,CLM000611,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",563.38,2026-02-17,Yes
+DEN000612,CLM000612,CO-27,Eligibility,"Patient coverage inactive or eligibility not verified",650.93,2026-02-14,Yes
+DEN000629,CLM000629,CO-18,Duplicate,"Duplicate claim submission",423.80,2026-02-25,Yes
+DEN000631,CLM000631,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",333.38,2026-02-25,Yes
+DEN000650,CLM000650,CO-16,Coding,"Invalid or incomplete coding information",67.50,2026-03-08,No
+DEN000651,CLM000651,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",103.38,2026-03-11,Yes
+DEN000652,CLM000652,CO-29,"Timely Filing","Claim submitted after timely filing limit",144.93,2026-03-14,Yes
+DEN000669,CLM000669,CO-50,"Medical Necessity","Service not considered medically necessary",605.80,2026-04-16,No
+DEN000671,CLM000671,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",473.38,2026-04-22,Yes
+DEN000690,CLM000690,CO-27,Eligibility,"Patient coverage inactive or eligibility not verified",193.50,2026-04-27,Yes
+DEN000691,CLM000691,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",243.38,2026-04-30,Yes
+DEN000692,CLM000692,CO-16,Coding,"Invalid or incomplete coding information",298.93,2026-05-03,No
+DEN000709,CLM000709,CO-197,Authorization,"Prior authorization missing or invalid",787.80,2026-05-08,Yes
+DEN000711,CLM000711,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",613.38,2026-05-14,Yes
+DEN000730,CLM000730,CO-29,"Timely Filing","Claim submitted after timely filing limit",319.50,2026-05-25,Yes
+DEN000731,CLM000731,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",383.38,2026-05-28,Yes
+DEN000732,CLM000732,CO-27,Eligibility,"Patient coverage inactive or eligibility not verified",452.93,2026-05-25,Yes
+DEN000749,CLM000749,CO-18,Duplicate,"Duplicate claim submission",189.80,2026-07-03,Yes
+DEN000751,CLM000751,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",153.38,2026-02-03,Yes
+DEN000770,CLM000770,CO-16,Coding,"Invalid or incomplete coding information",445.50,2026-02-14,No
+DEN000771,CLM000771,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",523.38,2026-02-17,Yes
+DEN000772,CLM000772,CO-29,"Timely Filing","Claim submitted after timely filing limit",606.93,2026-02-20,Yes
+DEN000789,CLM000789,CO-50,"Medical Necessity","Service not considered medically necessary",371.80,2026-02-25,No
+DEN000791,CLM000791,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",293.38,2026-03-03,Yes
+DEN000810,CLM000810,CO-27,Eligibility,"Patient coverage inactive or eligibility not verified",571.50,2026-04-05,Yes
+DEN000811,CLM000811,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",63.38,2026-04-08,Yes
+DEN000812,CLM000812,CO-16,Coding,"Invalid or incomplete coding information",100.93,2026-03-14,No
+DEN000829,CLM000829,CO-197,Authorization,"Prior authorization missing or invalid",553.80,2026-04-16,Yes
+DEN000831,CLM000831,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",433.38,2026-04-22,Yes
+DEN000850,CLM000850,CO-29,"Timely Filing","Claim submitted after timely filing limit",157.50,2026-05-03,Yes
+DEN000851,CLM000851,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",203.38,2026-05-06,Yes
+DEN000852,CLM000852,CO-27,Eligibility,"Patient coverage inactive or eligibility not verified",254.93,2026-05-03,Yes
+DEN000869,CLM000869,CO-18,Duplicate,"Duplicate claim submission",735.80,2026-05-14,Yes
+DEN000871,CLM000871,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",573.38,2026-05-14,Yes
+DEN000890,CLM000890,CO-16,Coding,"Invalid or incomplete coding information",283.50,2026-06-22,No
+DEN000891,CLM000891,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",343.38,2026-06-25,Yes
+DEN000892,CLM000892,CO-29,"Timely Filing","Claim submitted after timely filing limit",408.93,2026-06-28,Yes
+DEN000909,CLM000909,CO-50,"Medical Necessity","Service not considered medically necessary",137.80,2026-02-03,No
+DEN000911,CLM000911,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",113.38,2026-02-09,Yes
+DEN000930,CLM000930,CO-27,Eligibility,"Patient coverage inactive or eligibility not verified",409.50,2026-02-14,Yes
+DEN000931,CLM000931,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",483.38,2026-02-17,Yes
+DEN000932,CLM000932,CO-16,Coding,"Invalid or incomplete coding information",562.93,2026-02-20,No
+DEN000949,CLM000949,CO-197,Authorization,"Prior authorization missing or invalid",319.80,2026-03-25,Yes
+DEN000951,CLM000951,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",253.38,2026-03-31,Yes
+DEN000970,CLM000970,CO-29,"Timely Filing","Claim submitted after timely filing limit",535.50,2026-04-11,Yes
+DEN000971,CLM000971,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",623.38,2026-04-14,Yes
+DEN000972,CLM000972,CO-27,Eligibility,"Patient coverage inactive or eligibility not verified",716.93,2026-04-11,Yes
+DEN000989,CLM000989,CO-18,Duplicate,"Duplicate claim submission",501.80,2026-04-22,Yes
+DEN000991,CLM000991,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",393.38,2026-04-22,Yes
+DEN001010,CLM001010,CO-16,Coding,"Invalid or incomplete coding information",121.50,2026-05-03,No
+DEN001011,CLM001011,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",163.38,2026-05-06,Yes
+DEN001012,CLM001012,CO-29,"Timely Filing","Claim submitted after timely filing limit",210.93,2026-05-09,Yes
+DEN001029,CLM001029,CO-50,"Medical Necessity","Service not considered medically necessary",683.80,2026-06-11,No
+DEN001031,CLM001031,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",533.38,2026-06-17,Yes
+DEN001050,CLM001050,CO-27,Eligibility,"Patient coverage inactive or eligibility not verified",247.50,2026-01-23,Yes
+DEN001051,CLM001051,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",303.38,2026-01-26,Yes
+DEN001052,CLM001052,CO-16,Coding,"Invalid or incomplete coding information",364.93,2026-01-29,No
+DEN001069,CLM001069,CO-197,Authorization,"Prior authorization missing or invalid",865.80,2026-02-03,Yes
+DEN001071,CLM001071,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",73.38,2026-02-09,Yes
+DEN001090,CLM001090,CO-29,"Timely Filing","Claim submitted after timely filing limit",373.50,2026-03-20,Yes
+DEN001091,CLM001091,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",443.38,2026-03-23,Yes
+DEN001092,CLM001092,CO-27,Eligibility,"Patient coverage inactive or eligibility not verified",518.93,2026-02-20,Yes
+DEN001109,CLM001109,CO-18,Duplicate,"Duplicate claim submission",267.80,2026-03-31,Yes
+DEN001111,CLM001111,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",213.38,2026-03-31,Yes
+DEN001130,CLM001130,CO-16,Coding,"Invalid or incomplete coding information",499.50,2026-04-11,No
+DEN001131,CLM001131,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",583.38,2026-04-14,Yes
+DEN001132,CLM001132,CO-29,"Timely Filing","Claim submitted after timely filing limit",672.93,2026-04-17,Yes
+DEN001149,CLM001149,CO-50,"Medical Necessity","Service not considered medically necessary",449.80,2026-04-22,No
+DEN001151,CLM001151,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",353.38,2026-04-28,Yes
+DEN001170,CLM001170,CO-27,Eligibility,"Patient coverage inactive or eligibility not verified",85.50,2026-05-31,Yes
+DEN001171,CLM001171,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",123.38,2026-06-03,Yes
+DEN001172,CLM001172,CO-16,Coding,"Invalid or incomplete coding information",166.93,2026-06-06,No
+DEN001189,CLM001189,CO-197,Authorization,"Prior authorization missing or invalid",631.80,2026-06-11,Yes
+DEN001191,CLM001191,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",493.38,2026-06-17,Yes
+DEN001210,CLM001210,CO-29,"Timely Filing","Claim submitted after timely filing limit",211.50,2026-01-29,Yes
+DEN001211,CLM001211,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",263.38,2026-02-01,Yes
+DEN001212,CLM001212,CO-27,Eligibility,"Patient coverage inactive or eligibility not verified",320.93,2026-01-29,Yes
+DEN001229,CLM001229,CO-18,Duplicate,"Duplicate claim submission",813.80,2026-03-09,Yes
+DEN001231,CLM001231,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",633.38,2026-03-09,Yes
+DEN001250,CLM001250,CO-16,Coding,"Invalid or incomplete coding information",337.50,2026-03-20,No
+DEN001251,CLM001251,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",403.38,2026-03-23,Yes
+DEN001252,CLM001252,CO-29,"Timely Filing","Claim submitted after timely filing limit",474.93,2026-03-26,Yes
+DEN001269,CLM001269,CO-50,"Medical Necessity","Service not considered medically necessary",215.80,2026-03-31,No
+DEN001271,CLM001271,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",173.38,2026-04-06,Yes
+DEN001290,CLM001290,CO-27,Eligibility,"Patient coverage inactive or eligibility not verified",463.50,2026-04-11,Yes
+DEN001291,CLM001291,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",543.38,2026-04-14,Yes
+DEN001292,CLM001292,CO-16,Coding,"Invalid or incomplete coding information",628.93,2026-04-17,No
+DEN001309,CLM001309,CO-197,Authorization,"Prior authorization missing or invalid",397.80,2026-05-20,Yes
+DEN001311,CLM001311,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",313.38,2026-05-26,Yes
+DEN001330,CLM001330,CO-29,"Timely Filing","Claim submitted after timely filing limit",49.50,2026-06-06,Yes
+DEN001331,CLM001331,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",83.38,2026-06-09,Yes
+DEN001332,CLM001332,CO-27,Eligibility,"Patient coverage inactive or eligibility not verified",122.93,2026-06-06,Yes
+DEN001349,CLM001349,CO-18,Duplicate,"Duplicate claim submission",579.80,2026-06-17,Yes
+DEN001351,CLM001351,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",453.38,2026-01-18,Yes
+DEN001370,CLM001370,CO-16,Coding,"Invalid or incomplete coding information",175.50,2026-02-26,No
+DEN001371,CLM001371,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",223.38,2026-03-01,Yes
+DEN001372,CLM001372,CO-29,"Timely Filing","Claim submitted after timely filing limit",276.93,2026-02-04,Yes
+DEN001389,CLM001389,CO-50,"Medical Necessity","Service not considered medically necessary",761.80,2026-03-09,No
+DEN001391,CLM001391,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",593.38,2026-03-15,Yes
+DEN001410,CLM001410,CO-27,Eligibility,"Patient coverage inactive or eligibility not verified",301.50,2026-03-20,Yes
+DEN001411,CLM001411,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",363.38,2026-03-23,Yes
+DEN001412,CLM001412,CO-16,Coding,"Invalid or incomplete coding information",430.93,2026-03-26,No
+DEN001429,CLM001429,CO-197,Authorization,"Prior authorization missing or invalid",163.80,2026-03-31,Yes
+DEN001431,CLM001431,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",133.38,2026-04-06,Yes
+DEN001450,CLM001450,CO-29,"Timely Filing","Claim submitted after timely filing limit",427.50,2026-05-15,Yes
+DEN001451,CLM001451,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",503.38,2026-05-18,Yes
+DEN001452,CLM001452,CO-27,Eligibility,"Patient coverage inactive or eligibility not verified",584.93,2026-05-15,Yes
+DEN001469,CLM001469,CO-18,Duplicate,"Duplicate claim submission",345.80,2026-05-26,Yes
+DEN001471,CLM001471,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",273.38,2026-05-26,Yes
+DEN001490,CLM001490,CO-16,Coding,"Invalid or incomplete coding information",553.50,2026-06-06,No
+DEN001491,CLM001491,CO-109,Enrollment/Configuration,"Provider, payer, NPI, PTAN, or clearinghouse setup issue",643.38,2026-06-09,Yes
+DEN001492,CLM001492,CO-29,"Timely Filing","Claim submitted after timely filing limit",78.93,2026-06-12,Yes

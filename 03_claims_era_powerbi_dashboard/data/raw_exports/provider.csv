@@ -1,0 +1,41 @@
+provider_id,provider_name,practice_name,specialty,individual_npi,group_npi,tax_id,state
+PRV001,"Dr. Daniel Lee 01","Northside Pediatrics","Internal Medicine",1000000001,2000000001,900000001,TX
+PRV002,"Dr. Priya Shah 02","Greenway Internal Medicine",Pediatrics,1000000002,2000000002,900000002,NY
+PRV003,"Dr. Mark Wilson 03","Lakeside Women Health",Cardiology,1000000003,2000000003,900000003,FL
+PRV004,"Dr. Vivek Nair 04","Hillcrest Orthopedics","Orthopedic Surgery",1000000004,2000000004,900000004,IL
+PRV005,"Dr. Emily Chen 05","BrightCare Cardiology",Dermatology,1000000005,2000000005,900000005,PA
+PRV006,"Dr. Rohan Patel 06","Cedar Grove Clinic",Neurology,1000000006,2000000006,900000006,GA
+PRV007,"Dr. Sara Khan 07","Oak Street Primary Care",Endocrinology,1000000007,2000000007,900000007,NC
+PRV008,"Dr. Kavya Iyer 08","Westbrook Dermatology",Gastroenterology,1000000008,2000000008,900000008,CA
+PRV009,"Dr. Thomas Gray 09","Summit Eye Care","Behavioral Health",1000000009,2000000009,900000009,TX
+PRV010,"Dr. Isha Kapoor 10","Pine Ridge Family Clinic",Oncology,1000000010,2000000010,900000010,NY
+PRV011,"Dr. Omar Ali 11","Silverline Neurology",ENT,1000000011,2000000011,900000011,FL
+PRV012,"Dr. Lily Morgan 12","Maple Leaf Urgent Care","Family Practice",1000000012,2000000012,900000012,IL
+PRV013,"Dr. Sanjay Mehta 13","Southview Endocrinology","Internal Medicine",1000000013,2000000013,900000013,PA
+PRV014,"Dr. Hannah Scott 14","Blue Harbor ENT",Pediatrics,1000000014,2000000014,900000014,GA
+PRV015,"Dr. Grace Miller 15","Valley View Gastro",Cardiology,1000000015,2000000015,900000015,NC
+PRV016,"Dr. Asha Menon 16","Riverside Behavioral Health","Orthopedic Surgery",1000000016,2000000016,900000016,CA
+PRV017,"Dr. Daniel Lee 17","Sunrise Family Medicine",Dermatology,1000000017,2000000017,900000017,TX
+PRV018,"Dr. Priya Shah 18","Metro Spine Center",Neurology,1000000018,2000000018,900000018,NY
+PRV019,"Dr. Mark Wilson 19","Parkside Oncology",Endocrinology,1000000019,2000000019,900000019,FL
+PRV020,"Dr. Vivek Nair 20","River Valley Family Care",Gastroenterology,1000000020,2000000020,900000020,IL
+PRV021,"Dr. Emily Chen 21","Northside Pediatrics","Behavioral Health",1000000021,2000000001,900000021,PA
+PRV022,"Dr. Rohan Patel 22","Greenway Internal Medicine",Oncology,1000000022,2000000002,900000022,GA
+PRV023,"Dr. Sara Khan 23","Lakeside Women Health",ENT,1000000023,2000000003,900000023,NC
+PRV024,"Dr. Kavya Iyer 24","Hillcrest Orthopedics","Family Practice",1000000024,2000000004,900000024,CA
+PRV025,"Dr. Thomas Gray 25","BrightCare Cardiology","Internal Medicine",1000000025,2000000005,900000025,TX
+PRV026,"Dr. Isha Kapoor 26","Cedar Grove Clinic",Pediatrics,1000000026,2000000006,900000026,NY
+PRV027,"Dr. Omar Ali 27","Oak Street Primary Care",Cardiology,1000000027,2000000007,900000027,FL
+PRV028,"Dr. Lily Morgan 28","Westbrook Dermatology","Orthopedic Surgery",1000000028,2000000008,900000028,IL
+PRV029,"Dr. Sanjay Mehta 29","Summit Eye Care",Dermatology,1000000029,2000000009,900000029,PA
+PRV030,"Dr. Hannah Scott 30","Pine Ridge Family Clinic",Neurology,1000000030,2000000010,900000030,GA
+PRV031,"Dr. Grace Miller 31","Silverline Neurology",Endocrinology,1000000031,2000000011,900000031,NC
+PRV032,"Dr. Asha Menon 32","Maple Leaf Urgent Care",Gastroenterology,1000000032,2000000012,900000032,CA
+PRV033,"Dr. Daniel Lee 33","Southview Endocrinology","Behavioral Health",1000000033,2000000013,900000033,TX
+PRV034,"Dr. Priya Shah 34","Blue Harbor ENT",Oncology,1000000034,2000000014,900000034,NY
+PRV035,"Dr. Mark Wilson 35","Valley View Gastro",ENT,1000000035,2000000015,900000035,FL
+PRV036,"Dr. Vivek Nair 36","Riverside Behavioral Health","Family Practice",1000000036,2000000016,900000036,IL
+PRV037,"Dr. Emily Chen 37","Sunrise Family Medicine","Internal Medicine",1000000037,2000000017,900000037,PA
+PRV038,"Dr. Rohan Patel 38","Metro Spine Center",Pediatrics,1000000038,2000000018,900000038,GA
+PRV039,"Dr. Sara Khan 39","Parkside Oncology",Cardiology,1000000039,2000000019,900000039,NC
+PRV040,"Dr. Kavya Iyer 40","River Valley Family Care","Orthopedic Surgery",1000000040,2000000020,900000040,CA

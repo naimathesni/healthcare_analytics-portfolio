@@ -1,0 +1,401 @@
+enrollment_id,provider_id,payer_id,enrollment_type,credentialing_status,claims_enrollment_status,era_enrollment_status,clearinghouse_portal_updated,clearinghouse_configuration_status,credentialed_npi,enrolled_npi,npi_match_status,blocker_reason,submitted_date,approved_date,current_status,action_required_flag,claims_ready_flag,era_ready_flag
+ENR001001,PRV001,PYR001,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000001,2000000001,"NPI Match","No blocker",2026-01-19,2026-01-29,Ready,No,Ready,Ready
+ENR001002,PRV001,PYR002,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000001,2000000001,"NPI Match","No blocker",2026-01-30,2026-02-10,Ready,No,Ready,"Not Applicable"
+ENR001003,PRV001,PYR003,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000001,2000000001,"NPI Match","No blocker",2026-02-10,2026-02-22,Ready,No,Ready,Ready
+ENR001004,PRV001,PYR004,ERA,Completed,"Not Required",Approved,No,Pending,2000000001,2000000001,"NPI Match","Clearinghouse portal not updated",2026-02-21,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR001005,PRV001,PYR005,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000001,2000000001,"NPI Match","Missing payer approval",2026-03-04,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR001006,PRV001,PYR006,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000001,2000000001,"NPI Match","No blocker",2026-03-15,2026-03-30,Ready,No,Ready,Ready
+ENR001007,PRV001,PYR007,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000001,2000000001,"NPI Match","Wrong payer ID",2026-03-26,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR001008,PRV001,PYR008,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000001,2000000001,"NPI Match","Incorrect PTAN/provider number",2026-04-06,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR001009,PRV001,PYR009,ERA,Completed,"Not Required",Approved,No,Pending,2000000001,2000000001,"NPI Match","Clearinghouse portal not updated",2026-04-17,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR001010,PRV001,PYR010,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000001,1000000001,"NPI Mismatch","Individual NPI used instead of group NPI",2026-04-28,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR002001,PRV002,PYR001,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000002,2000000002,"NPI Match","No blocker",2026-01-26,2026-02-06,Ready,No,Ready,"Not Applicable"
+ENR002002,PRV002,PYR002,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000002,2000000002,"NPI Match","No blocker",2026-02-06,2026-02-18,Ready,No,Ready,Ready
+ENR002003,PRV002,PYR003,ERA,Completed,"Not Required",Approved,No,Pending,2000000002,2000000002,"NPI Match","Clearinghouse portal not updated",2026-02-17,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR002004,PRV002,PYR004,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000002,2000000002,"NPI Match","Missing payer approval",2026-02-28,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR002005,PRV002,PYR005,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000002,2000000002,"NPI Match","No blocker",2026-03-11,2026-03-26,Ready,No,Ready,Ready
+ENR002006,PRV002,PYR006,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000002,2000000002,"NPI Match","No blocker",2026-03-22,2026-04-07,Ready,No,Ready,Ready
+ENR002007,PRV002,PYR007,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000002,2000000002,"NPI Match","Wrong payer ID",2026-04-02,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR002008,PRV002,PYR008,ERA,Completed,"Not Required",Approved,No,Pending,2000000002,2000000002,"NPI Match","Clearinghouse portal not updated",2026-04-13,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR002009,PRV002,PYR009,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000002,1000000002,"NPI Mismatch","Individual NPI used instead of group NPI",2026-04-24,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR002010,PRV002,PYR010,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000002,2000000002,"NPI Match","Missing payer approval",2026-05-05,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR003001,PRV003,PYR001,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000003,2000000003,"NPI Match","No blocker",2026-02-02,2026-02-14,Ready,No,Ready,Ready
+ENR003002,PRV003,PYR002,ERA,Completed,"Not Required",Approved,No,Pending,2000000003,2000000003,"NPI Match","Clearinghouse portal not updated",2026-02-13,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR003003,PRV003,PYR003,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000003,2000000003,"NPI Match","Missing payer approval",2026-02-24,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR003004,PRV003,PYR004,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000003,2000000003,"NPI Match","No blocker",2026-03-07,2026-03-22,Ready,No,Ready,Ready
+ENR003005,PRV003,PYR005,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000003,2000000003,"NPI Match","No blocker",2026-03-18,2026-04-03,Ready,No,Ready,Ready
+ENR003006,PRV003,PYR006,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000003,2000000003,"NPI Match","No blocker",2026-03-29,2026-04-15,Ready,No,Ready,"Not Applicable"
+ENR003007,PRV003,PYR007,ERA,Completed,"Not Required",Approved,No,Pending,2000000003,2000000003,"NPI Match","Clearinghouse portal not updated",2026-04-09,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR003008,PRV003,PYR008,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000003,1000000003,"NPI Mismatch","Individual NPI used instead of group NPI",2026-04-20,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR003009,PRV003,PYR009,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000003,2000000003,"NPI Match","Missing payer approval",2026-05-01,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR003010,PRV003,PYR010,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000003,2000000003,"NPI Match","No blocker",2026-05-12,2026-05-23,Ready,No,Ready,Ready
+ENR004001,PRV004,PYR001,ERA,Completed,"Not Required",Approved,No,Pending,2000000004,2000000004,"NPI Match","Clearinghouse portal not updated",2026-02-09,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR004002,PRV004,PYR002,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000004,2000000004,"NPI Match","Missing payer approval",2026-02-20,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR004003,PRV004,PYR003,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000004,2000000004,"NPI Match","No blocker",2026-03-03,2026-03-18,Ready,No,Ready,Ready
+ENR004004,PRV004,PYR004,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000004,2000000004,"NPI Match","No blocker",2026-03-14,2026-03-30,Ready,No,Ready,Ready
+ENR004005,PRV004,PYR005,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000004,2000000004,"NPI Match","No blocker",2026-03-25,2026-04-11,Ready,No,Ready,"Not Applicable"
+ENR004006,PRV004,PYR006,ERA,Completed,"Not Required",Approved,No,Pending,2000000004,2000000004,"NPI Match","Clearinghouse portal not updated",2026-04-05,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR004007,PRV004,PYR007,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000004,1000000004,"NPI Mismatch","Individual NPI used instead of group NPI",2026-04-16,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR004008,PRV004,PYR008,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000004,2000000004,"NPI Match","Missing payer approval",2026-04-27,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR004009,PRV004,PYR009,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000004,2000000004,"NPI Match","No blocker",2026-05-08,2026-05-19,Ready,No,Ready,Ready
+ENR004010,PRV004,PYR010,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000004,2000000004,"NPI Match","No blocker",2026-05-19,2026-05-31,Ready,No,Ready,Ready
+ENR005001,PRV005,PYR001,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000005,2000000005,"NPI Match","Missing payer approval",2026-02-16,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR005002,PRV005,PYR002,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000005,2000000005,"NPI Match","No blocker",2026-02-27,2026-03-14,Ready,No,Ready,Ready
+ENR005003,PRV005,PYR003,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000005,2000000005,"NPI Match","No blocker",2026-03-10,2026-03-26,Ready,No,Ready,Ready
+ENR005004,PRV005,PYR004,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000005,2000000005,"NPI Match","No blocker",2026-03-21,2026-04-07,Ready,No,Ready,"Not Applicable"
+ENR005005,PRV005,PYR005,ERA,Completed,"Not Required",Approved,No,Pending,2000000005,2000000005,"NPI Match","Clearinghouse portal not updated",2026-04-01,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR005006,PRV005,PYR006,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000005,1000000005,"NPI Mismatch","Individual NPI used instead of group NPI",2026-04-12,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR005007,PRV005,PYR007,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000005,2000000005,"NPI Match","Wrong payer ID",2026-04-23,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR005008,PRV005,PYR008,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000005,2000000005,"NPI Match","No blocker",2026-05-04,2026-05-15,Ready,No,Ready,Ready
+ENR005009,PRV005,PYR009,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000005,2000000005,"NPI Match","No blocker",2026-05-15,2026-05-27,Ready,No,Ready,Ready
+ENR005010,PRV005,PYR010,ERA,Completed,"Not Required",Approved,No,Pending,2000000005,2000000005,"NPI Match","Clearinghouse portal not updated",2026-05-26,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR006001,PRV006,PYR001,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000006,2000000006,"NPI Match","No blocker",2026-02-23,2026-03-10,Ready,No,Ready,Ready
+ENR006002,PRV006,PYR002,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000006,2000000006,"NPI Match","No blocker",2026-03-06,2026-03-22,Ready,No,Ready,Ready
+ENR006003,PRV006,PYR003,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000006,2000000006,"NPI Match","No blocker",2026-03-17,2026-04-03,Ready,No,Ready,"Not Applicable"
+ENR006004,PRV006,PYR004,ERA,Completed,"Not Required",Approved,No,Pending,2000000006,2000000006,"NPI Match","Clearinghouse portal not updated",2026-03-28,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR006005,PRV006,PYR005,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000006,1000000006,"NPI Mismatch","Individual NPI used instead of group NPI",2026-04-08,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR006006,PRV006,PYR006,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000006,2000000006,"NPI Match","Missing payer approval",2026-04-19,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR006007,PRV006,PYR007,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000006,2000000006,"NPI Match","Wrong payer ID",2026-04-30,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR006008,PRV006,PYR008,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000006,2000000006,"NPI Match","No blocker",2026-05-11,2026-05-23,Ready,No,Ready,Ready
+ENR006009,PRV006,PYR009,ERA,Completed,"Not Required",Approved,No,Pending,2000000006,2000000006,"NPI Match","Clearinghouse portal not updated",2026-05-22,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR006010,PRV006,PYR010,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000006,2000000006,"NPI Match","No blocker",2026-01-03,2026-01-17,Ready,No,Ready,Ready
+ENR007001,PRV007,PYR001,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000007,2000000007,"NPI Match","Medicare additional enrollment missing",2026-03-02,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR007002,PRV007,PYR002,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000007,2000000007,"NPI Match","Incorrect PTAN/provider number",2026-03-13,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR007003,PRV007,PYR003,ERA,Completed,"Not Required",Approved,No,Pending,2000000007,2000000007,"NPI Match","Clearinghouse portal not updated",2026-03-24,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR007004,PRV007,PYR004,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000007,1000000007,"NPI Mismatch","Individual NPI used instead of group NPI",2026-04-04,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR007005,PRV007,PYR005,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000007,2000000007,"NPI Match","Wrong payer ID",2026-04-15,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR007006,PRV007,PYR006,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000007,2000000007,"NPI Match","Wrong payer ID",2026-04-26,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR007007,PRV007,PYR007,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000007,2000000007,"NPI Match","Wrong payer ID",2026-05-07,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR007008,PRV007,PYR008,ERA,Completed,"Not Required",Approved,No,Pending,2000000007,2000000007,"NPI Match","Clearinghouse portal not updated",2026-05-18,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR007009,PRV007,PYR009,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000007,2000000007,"NPI Match","Wrong payer ID",2026-05-29,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR007010,PRV007,PYR010,"Claims and ERA","In Progress","Not Started","Not Started",No,"Not Started",2000000007,2000000007,"NPI Match","Credentialing not completed",2026-01-10,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR008001,PRV008,PYR001,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000008,2000000008,"NPI Match","Incorrect PTAN/provider number",2026-03-09,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR008002,PRV008,PYR002,ERA,Completed,"Not Required",Rejected,Yes,"Issue Found",2000000008,2000000008,"NPI Match","Medicaid additional enrollment missing",2026-03-20,NULL,Blocked,Yes,"Not Applicable","Not Ready"
+ENR008003,PRV008,PYR003,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000008,1000000008,"NPI Mismatch","Individual NPI used instead of group NPI",2026-03-31,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR008004,PRV008,PYR004,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000008,2000000008,"NPI Match","Missing payer approval",2026-04-11,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR008005,PRV008,PYR005,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000008,2000000008,"NPI Match","No blocker",2026-04-22,2026-05-03,Ready,No,Ready,Ready
+ENR008006,PRV008,PYR006,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000008,2000000008,"NPI Match","No blocker",2026-05-03,2026-05-15,Ready,No,Ready,Ready
+ENR008007,PRV008,PYR007,ERA,Completed,"Not Required",Approved,No,Pending,2000000008,2000000008,"NPI Match","Clearinghouse portal not updated",2026-05-14,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR008008,PRV008,PYR008,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000008,2000000008,"NPI Match","Medicaid additional enrollment missing",2026-05-25,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR008009,PRV008,PYR009,"Claims and ERA","In Progress","Not Started","Not Started",No,"Not Started",2000000008,2000000008,"NPI Match","Credentialing not completed",2026-01-06,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR008010,PRV008,PYR010,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000008,2000000008,"NPI Match","Missing payer approval",2026-01-17,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR009001,PRV009,PYR001,ERA,Completed,"Not Required",Approved,No,Pending,2000000009,2000000009,"NPI Match","Clearinghouse portal not updated",2026-03-16,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR009002,PRV009,PYR002,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000009,1000000009,"NPI Mismatch","Individual NPI used instead of group NPI",2026-03-27,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR009003,PRV009,PYR003,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000009,2000000009,"NPI Match","Missing payer approval",2026-04-07,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR009004,PRV009,PYR004,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000009,2000000009,"NPI Match","No blocker",2026-04-18,2026-04-29,Ready,No,Ready,Ready
+ENR009005,PRV009,PYR005,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000009,2000000009,"NPI Match","No blocker",2026-04-29,2026-05-11,Ready,No,Ready,Ready
+ENR009006,PRV009,PYR006,ERA,Completed,"Not Required",Approved,No,Pending,2000000009,2000000009,"NPI Match","Clearinghouse portal not updated",2026-05-10,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR009007,PRV009,PYR007,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000009,2000000009,"NPI Match","Wrong payer ID",2026-05-21,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR009008,PRV009,PYR008,"Claims and ERA","In Progress","Not Started","Not Started",No,"Not Started",2000000009,2000000009,"NPI Match","Credentialing not completed",2026-01-02,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR009009,PRV009,PYR009,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000009,2000000009,"NPI Match","Missing payer approval",2026-01-13,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR009010,PRV009,PYR010,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000009,2000000009,"NPI Match","No blocker",2026-01-24,2026-02-10,Ready,No,Ready,Ready
+ENR010001,PRV010,PYR001,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000010,1000000010,"NPI Mismatch","Individual NPI used instead of group NPI",2026-03-23,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR010002,PRV010,PYR002,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000010,2000000010,"NPI Match","Missing payer approval",2026-04-03,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR010003,PRV010,PYR003,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000010,2000000010,"NPI Match","No blocker",2026-04-14,2026-04-25,Ready,No,Ready,Ready
+ENR010004,PRV010,PYR004,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000010,2000000010,"NPI Match","No blocker",2026-04-25,2026-05-07,Ready,No,Ready,Ready
+ENR010005,PRV010,PYR005,ERA,Completed,"Not Required",Approved,No,Pending,2000000010,2000000010,"NPI Match","Clearinghouse portal not updated",2026-05-06,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR010006,PRV010,PYR006,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000010,2000000010,"NPI Match","No blocker",2026-05-17,2026-05-31,Ready,No,Ready,Ready
+ENR010007,PRV010,PYR007,"Claims and ERA","In Progress","Not Started","Not Started",No,"Not Started",2000000010,2000000010,"NPI Match","Credentialing not completed",2026-05-28,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR010008,PRV010,PYR008,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000010,2000000010,"NPI Match","Incorrect PTAN/provider number",2026-01-09,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR010009,PRV010,PYR009,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000010,2000000010,"NPI Match","No blocker",2026-01-20,2026-02-06,Ready,No,Ready,Ready
+ENR010010,PRV010,PYR010,ERA,Completed,"Not Required",Approved,No,Pending,2000000010,2000000010,"NPI Match","Clearinghouse portal not updated",2026-01-31,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR011001,PRV011,PYR001,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000011,2000000011,"NPI Match","Missing payer approval",2026-03-30,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR011002,PRV011,PYR002,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000011,2000000011,"NPI Match","No blocker",2026-04-10,2026-04-21,Ready,No,Ready,Ready
+ENR011003,PRV011,PYR003,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000011,2000000011,"NPI Match","No blocker",2026-04-21,2026-05-03,Ready,No,Ready,Ready
+ENR011004,PRV011,PYR004,ERA,Completed,"Not Required",Approved,No,Pending,2000000011,2000000011,"NPI Match","Clearinghouse portal not updated",2026-05-02,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR011005,PRV011,PYR005,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000011,2000000011,"NPI Match","No blocker",2026-05-13,2026-05-27,Ready,No,Ready,Ready
+ENR011006,PRV011,PYR006,"Claims and ERA","In Progress","Not Started","Not Started",No,"Not Started",2000000011,2000000011,"NPI Match","Credentialing not completed",2026-05-24,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR011007,PRV011,PYR007,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000011,2000000011,"NPI Match","Wrong payer ID",2026-01-05,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR011008,PRV011,PYR008,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000011,2000000011,"NPI Match","No blocker",2026-01-16,2026-02-02,Ready,No,Ready,Ready
+ENR011009,PRV011,PYR009,ERA,Completed,"Not Required",Approved,No,Pending,2000000011,2000000011,"NPI Match","Clearinghouse portal not updated",2026-01-27,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR011010,PRV011,PYR010,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000011,2000000011,"NPI Match","No blocker",2026-02-07,2026-02-16,Ready,No,Ready,"Not Applicable"
+ENR012001,PRV012,PYR001,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000012,2000000012,"NPI Match","No blocker",2026-04-06,2026-04-17,Ready,No,Ready,Ready
+ENR012002,PRV012,PYR002,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000012,2000000012,"NPI Match","No blocker",2026-04-17,2026-04-29,Ready,No,Ready,Ready
+ENR012003,PRV012,PYR003,ERA,Completed,"Not Required",Approved,No,Pending,2000000012,2000000012,"NPI Match","Clearinghouse portal not updated",2026-04-28,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR012004,PRV012,PYR004,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000012,2000000012,"NPI Match","No blocker",2026-05-09,2026-05-23,Ready,No,Ready,Ready
+ENR012005,PRV012,PYR005,"Claims and ERA","In Progress","Not Started","Not Started",No,"Not Started",2000000012,2000000012,"NPI Match","Credentialing not completed",2026-05-20,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR012006,PRV012,PYR006,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000012,2000000012,"NPI Match","Missing payer approval",2026-01-01,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR012007,PRV012,PYR007,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000012,2000000012,"NPI Match","Wrong payer ID",2026-01-12,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR012008,PRV012,PYR008,ERA,Completed,"Not Required",Approved,No,Pending,2000000012,2000000012,"NPI Match","Clearinghouse portal not updated",2026-01-23,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR012009,PRV012,PYR009,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000012,2000000012,"NPI Match","No blocker",2026-02-03,2026-02-12,Ready,No,Ready,"Not Applicable"
+ENR012010,PRV012,PYR010,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000012,1000000012,"NPI Mismatch","Individual NPI used instead of group NPI",2026-02-14,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR013001,PRV013,PYR001,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000013,2000000013,"NPI Match","No blocker",2026-04-13,2026-04-25,Ready,No,Ready,Ready
+ENR013002,PRV013,PYR002,ERA,Completed,"Not Required",Approved,No,Pending,2000000013,2000000013,"NPI Match","Clearinghouse portal not updated",2026-04-24,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR013003,PRV013,PYR003,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000013,2000000013,"NPI Match","No blocker",2026-05-05,2026-05-19,Ready,No,Ready,Ready
+ENR013004,PRV013,PYR004,"Claims and ERA","In Progress","Not Started","Not Started",No,"Not Started",2000000013,2000000013,"NPI Match","Credentialing not completed",2026-05-16,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR013005,PRV013,PYR005,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000013,2000000013,"NPI Match","Missing payer approval",2026-05-27,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR013006,PRV013,PYR006,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000013,2000000013,"NPI Match","No blocker",2026-01-08,2026-01-25,Ready,No,Ready,Ready
+ENR013007,PRV013,PYR007,ERA,Completed,"Not Required",Approved,No,Pending,2000000013,2000000013,"NPI Match","Clearinghouse portal not updated",2026-01-19,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR013008,PRV013,PYR008,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000013,2000000013,"NPI Match","No blocker",2026-01-30,2026-02-08,Ready,No,Ready,"Not Applicable"
+ENR013009,PRV013,PYR009,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000013,1000000013,"NPI Mismatch","Individual NPI used instead of group NPI",2026-02-10,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR013010,PRV013,PYR010,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000013,2000000013,"NPI Match","No blocker",2026-02-21,2026-03-04,Ready,No,Ready,Ready
+ENR014001,PRV014,PYR001,ERA,Completed,"Not Required",Rejected,Yes,"Issue Found",2000000014,2000000014,"NPI Match","Medicare additional enrollment missing",2026-04-20,NULL,Blocked,Yes,"Not Applicable","Not Ready"
+ENR014002,PRV014,PYR002,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000014,2000000014,"NPI Match","Wrong payer ID",2026-05-01,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR014003,PRV014,PYR003,"Claims and ERA","In Progress","Not Started","Not Started",No,"Not Started",2000000014,2000000014,"NPI Match","Credentialing not completed",2026-05-12,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR014004,PRV014,PYR004,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000014,2000000014,"NPI Match","Wrong payer ID",2026-05-23,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR014005,PRV014,PYR005,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000014,2000000014,"NPI Match","Wrong payer ID",2026-01-04,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR014006,PRV014,PYR006,ERA,Completed,"Not Required",Approved,No,Pending,2000000014,2000000014,"NPI Match","Clearinghouse portal not updated",2026-01-15,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR014007,PRV014,PYR007,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000014,2000000014,"NPI Match","Wrong payer ID",2026-01-26,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR014008,PRV014,PYR008,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000014,1000000014,"NPI Mismatch","Individual NPI used instead of group NPI",2026-02-06,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR014009,PRV014,PYR009,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000014,2000000014,"NPI Match","Wrong payer ID",2026-02-17,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR014010,PRV014,PYR010,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000014,2000000014,"NPI Match","Wrong payer ID",2026-02-28,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR015001,PRV015,PYR001,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000015,2000000015,"NPI Match","No blocker",2026-04-27,2026-05-11,Ready,No,Ready,Ready
+ENR015002,PRV015,PYR002,"Claims and ERA","In Progress","Not Started","Not Started",No,"Not Started",2000000015,2000000015,"NPI Match","Credentialing not completed",2026-05-08,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR015003,PRV015,PYR003,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000015,2000000015,"NPI Match","Missing payer approval",2026-05-19,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR015004,PRV015,PYR004,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000015,2000000015,"NPI Match","No blocker",2026-05-30,2026-06-16,Ready,No,Ready,Ready
+ENR015005,PRV015,PYR005,ERA,Completed,"Not Required",Approved,No,Pending,2000000015,2000000015,"NPI Match","Clearinghouse portal not updated",2026-01-11,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR015006,PRV015,PYR006,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000015,2000000015,"NPI Match","No blocker",2026-01-22,2026-01-31,Ready,No,Ready,"Not Applicable"
+ENR015007,PRV015,PYR007,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000015,1000000015,"NPI Mismatch","Individual NPI used instead of group NPI",2026-02-02,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR015008,PRV015,PYR008,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000015,2000000015,"NPI Match","No blocker",2026-02-13,2026-02-24,Ready,No,Ready,Ready
+ENR015009,PRV015,PYR009,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000015,2000000015,"NPI Match","Missing payer approval",2026-02-24,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR015010,PRV015,PYR010,ERA,Completed,"Not Required",Approved,No,Pending,2000000015,2000000015,"NPI Match","Clearinghouse portal not updated",2026-03-07,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR016001,PRV016,PYR001,"Claims and ERA","In Progress","Not Started","Not Started",No,"Not Started",2000000016,2000000016,"NPI Match","Credentialing not completed",2026-05-04,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR016002,PRV016,PYR002,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000016,2000000016,"NPI Match","Incorrect PTAN/provider number",2026-05-15,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR016003,PRV016,PYR003,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000016,2000000016,"NPI Match","No blocker",2026-05-26,2026-06-12,Ready,No,Ready,Ready
+ENR016004,PRV016,PYR004,ERA,Completed,"Not Required",Approved,No,Pending,2000000016,2000000016,"NPI Match","Clearinghouse portal not updated",2026-01-07,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR016005,PRV016,PYR005,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000016,2000000016,"NPI Match","No blocker",2026-01-18,2026-01-27,Ready,No,Ready,"Not Applicable"
+ENR016006,PRV016,PYR006,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000016,1000000016,"NPI Mismatch","Individual NPI used instead of group NPI",2026-01-29,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR016007,PRV016,PYR007,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000016,2000000016,"NPI Match","Wrong payer ID",2026-02-09,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR016008,PRV016,PYR008,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000016,2000000016,"NPI Match","Medicaid additional enrollment missing",2026-02-20,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR016009,PRV016,PYR009,ERA,Completed,"Not Required",Approved,No,Pending,2000000016,2000000016,"NPI Match","Clearinghouse portal not updated",2026-03-03,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR016010,PRV016,PYR010,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000016,2000000016,"NPI Match","No blocker",2026-03-14,2026-03-28,Ready,No,Ready,Ready
+ENR017001,PRV017,PYR001,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000017,2000000017,"NPI Match","Incorrect PTAN/provider number",2026-05-11,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR017002,PRV017,PYR002,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000017,2000000017,"NPI Match","No blocker",2026-05-22,2026-06-08,Ready,No,Ready,Ready
+ENR017003,PRV017,PYR003,ERA,Completed,"Not Required",Approved,No,Pending,2000000017,2000000017,"NPI Match","Clearinghouse portal not updated",2026-01-03,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR017004,PRV017,PYR004,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000017,2000000017,"NPI Match","No blocker",2026-01-14,2026-01-23,Ready,No,Ready,"Not Applicable"
+ENR017005,PRV017,PYR005,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000017,1000000017,"NPI Mismatch","Individual NPI used instead of group NPI",2026-01-25,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR017006,PRV017,PYR006,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000017,2000000017,"NPI Match","No blocker",2026-02-05,2026-02-16,Ready,No,Ready,Ready
+ENR017007,PRV017,PYR007,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000017,2000000017,"NPI Match","Wrong payer ID",2026-02-16,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR017008,PRV017,PYR008,ERA,Completed,"Not Required",Approved,No,Pending,2000000017,2000000017,"NPI Match","Clearinghouse portal not updated",2026-02-27,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR017009,PRV017,PYR009,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000017,2000000017,"NPI Match","No blocker",2026-03-10,2026-03-24,Ready,No,Ready,Ready
+ENR017010,PRV017,PYR010,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000017,2000000017,"NPI Match","No blocker",2026-03-21,2026-04-05,Ready,No,Ready,"Not Applicable"
+ENR018001,PRV018,PYR001,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000018,2000000018,"NPI Match","No blocker",2026-05-18,2026-06-04,Ready,No,Ready,Ready
+ENR018002,PRV018,PYR002,ERA,Completed,"Not Required",Approved,No,Pending,2000000018,2000000018,"NPI Match","Clearinghouse portal not updated",2026-05-29,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR018003,PRV018,PYR003,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000018,2000000018,"NPI Match","No blocker",2026-01-10,2026-01-19,Ready,No,Ready,"Not Applicable"
+ENR018004,PRV018,PYR004,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000018,1000000018,"NPI Mismatch","Individual NPI used instead of group NPI",2026-01-21,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR018005,PRV018,PYR005,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000018,2000000018,"NPI Match","No blocker",2026-02-01,2026-02-12,Ready,No,Ready,Ready
+ENR018006,PRV018,PYR006,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000018,2000000018,"NPI Match","Missing payer approval",2026-02-12,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR018007,PRV018,PYR007,ERA,Completed,"Not Required",Approved,No,Pending,2000000018,2000000018,"NPI Match","Clearinghouse portal not updated",2026-02-23,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR018008,PRV018,PYR008,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000018,2000000018,"NPI Match","No blocker",2026-03-06,2026-03-20,Ready,No,Ready,Ready
+ENR018009,PRV018,PYR009,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000018,2000000018,"NPI Match","No blocker",2026-03-17,2026-04-01,Ready,No,Ready,"Not Applicable"
+ENR018010,PRV018,PYR010,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000018,2000000018,"NPI Match","No blocker",2026-03-28,2026-04-13,Ready,No,Ready,Ready
+ENR019001,PRV019,PYR001,ERA,Completed,"Not Required",Approved,No,Pending,2000000019,2000000019,"NPI Match","Clearinghouse portal not updated",2026-05-25,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR019002,PRV019,PYR002,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000019,2000000019,"NPI Match","No blocker",2026-01-06,2026-01-15,Ready,No,Ready,"Not Applicable"
+ENR019003,PRV019,PYR003,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000019,1000000019,"NPI Mismatch","Individual NPI used instead of group NPI",2026-01-17,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR019004,PRV019,PYR004,"Claims and ERA",Completed,Approved,Pending,Yes,"In Progress",2000000019,2000000019,"NPI Match","ERA setup not completed",2026-01-28,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR019005,PRV019,PYR005,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000019,2000000019,"NPI Match","Missing payer approval",2026-02-08,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR019006,PRV019,PYR006,ERA,Completed,"Not Required",Approved,No,Pending,2000000019,2000000019,"NPI Match","Clearinghouse portal not updated",2026-02-19,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR019007,PRV019,PYR007,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000019,2000000019,"NPI Match","Wrong payer ID",2026-03-02,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR019008,PRV019,PYR008,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000019,2000000019,"NPI Match","Incorrect PTAN/provider number",2026-03-13,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR019009,PRV019,PYR009,"Claims and ERA",Completed,Approved,Pending,Yes,"In Progress",2000000019,2000000019,"NPI Match","ERA setup not completed",2026-03-24,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR019010,PRV019,PYR010,"Claims and ERA",Completed,Approved,Pending,Yes,"In Progress",2000000019,2000000019,"NPI Match","ERA setup not completed",2026-04-04,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR020001,PRV020,PYR001,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000020,2000000020,"NPI Match","No blocker",2026-01-02,2026-01-11,Ready,No,Ready,"Not Applicable"
+ENR020002,PRV020,PYR002,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000020,1000000020,"NPI Mismatch","Individual NPI used instead of group NPI",2026-01-13,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR020003,PRV020,PYR003,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000020,2000000020,"NPI Match","No blocker",2026-01-24,2026-02-04,Ready,No,Ready,Ready
+ENR020004,PRV020,PYR004,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000020,2000000020,"NPI Match","Missing payer approval",2026-02-04,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR020005,PRV020,PYR005,ERA,Completed,"Not Required",Approved,No,Pending,2000000020,2000000020,"NPI Match","Clearinghouse portal not updated",2026-02-15,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR020006,PRV020,PYR006,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000020,2000000020,"NPI Match","No blocker",2026-02-26,2026-03-12,Ready,No,Ready,Ready
+ENR020007,PRV020,PYR007,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000020,2000000020,"NPI Match","Wrong payer ID",2026-03-09,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR020008,PRV020,PYR008,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000020,2000000020,"NPI Match","No blocker",2026-03-20,2026-04-05,Ready,No,Ready,Ready
+ENR020009,PRV020,PYR009,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000020,2000000020,"NPI Match","No blocker",2026-03-31,2026-04-17,Ready,No,Ready,Ready
+ENR020010,PRV020,PYR010,ERA,Completed,"Not Required",Approved,No,Pending,2000000020,2000000020,"NPI Match","Clearinghouse portal not updated",2026-04-11,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR021001,PRV021,PYR001,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000001,1000000021,"NPI Mismatch","Individual NPI used instead of group NPI",2026-01-09,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR021002,PRV021,PYR002,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000001,2000000001,"NPI Match","Wrong payer ID",2026-01-20,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR021003,PRV021,PYR003,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000001,2000000001,"NPI Match","Wrong payer ID",2026-01-31,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR021004,PRV021,PYR004,ERA,Completed,"Not Required",Approved,No,Pending,2000000001,2000000001,"NPI Match","Clearinghouse portal not updated",2026-02-11,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR021005,PRV021,PYR005,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000001,2000000001,"NPI Match","Wrong payer ID",2026-02-22,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR021006,PRV021,PYR006,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000001,2000000001,"NPI Match","Wrong payer ID",2026-03-05,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR021007,PRV021,PYR007,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000001,2000000001,"NPI Match","Wrong payer ID",2026-03-16,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR021008,PRV021,PYR008,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000001,2000000001,"NPI Match","Wrong payer ID",2026-03-27,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR021009,PRV021,PYR009,ERA,Completed,"Not Required",Approved,No,Pending,2000000001,2000000001,"NPI Match","Clearinghouse portal not updated",2026-04-07,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR021010,PRV021,PYR010,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000001,2000000001,"NPI Match","Wrong payer ID",2026-04-18,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR022001,PRV022,PYR001,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000002,2000000002,"NPI Match","No blocker",2026-01-16,2026-01-27,Ready,No,Ready,Ready
+ENR022002,PRV022,PYR002,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000002,2000000002,"NPI Match","Missing payer approval",2026-01-27,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR022003,PRV022,PYR003,ERA,Completed,"Not Required",Approved,No,Pending,2000000002,2000000002,"NPI Match","Clearinghouse portal not updated",2026-02-07,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR022004,PRV022,PYR004,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000002,2000000002,"NPI Match","No blocker",2026-02-18,2026-03-04,Ready,No,Ready,Ready
+ENR022005,PRV022,PYR005,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000002,2000000002,"NPI Match","No blocker",2026-03-01,2026-03-16,Ready,No,Ready,"Not Applicable"
+ENR022006,PRV022,PYR006,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000002,2000000002,"NPI Match","No blocker",2026-03-12,2026-03-28,Ready,No,Ready,Ready
+ENR022007,PRV022,PYR007,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000002,2000000002,"NPI Match","Wrong payer ID",2026-03-23,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR022008,PRV022,PYR008,ERA,Completed,"Not Required",Approved,No,Pending,2000000002,2000000002,"NPI Match","Clearinghouse portal not updated",2026-04-03,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR022009,PRV022,PYR009,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000002,2000000002,"NPI Match","No blocker",2026-04-14,2026-04-23,Ready,No,Ready,Ready
+ENR022010,PRV022,PYR010,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000002,2000000002,"NPI Match","No blocker",2026-04-25,2026-05-05,Ready,No,Ready,Ready
+ENR023001,PRV023,PYR001,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000003,8000000003,"NPI Mismatch","Credentialed NPI mismatch",2026-01-23,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR023002,PRV023,PYR002,ERA,Completed,"Not Required",Rejected,Yes,"Issue Found",2000000003,8000000003,"NPI Mismatch","Credentialed NPI mismatch",2026-02-03,NULL,Blocked,Yes,"Not Applicable","Not Ready"
+ENR023003,PRV023,PYR003,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000003,8000000003,"NPI Mismatch","Credentialed NPI mismatch",2026-02-14,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR023004,PRV023,PYR004,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000003,8000000003,"NPI Mismatch","Credentialed NPI mismatch",2026-02-25,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR023005,PRV023,PYR005,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000003,8000000003,"NPI Mismatch","Credentialed NPI mismatch",2026-03-08,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR023006,PRV023,PYR006,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000003,8000000003,"NPI Mismatch","Credentialed NPI mismatch",2026-03-19,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR023007,PRV023,PYR007,ERA,Completed,"Not Required",Rejected,Yes,"Issue Found",2000000003,8000000003,"NPI Mismatch","Credentialed NPI mismatch",2026-03-30,NULL,Blocked,Yes,"Not Applicable","Not Ready"
+ENR023008,PRV023,PYR008,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000003,8000000003,"NPI Mismatch","Credentialed NPI mismatch",2026-04-10,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR023009,PRV023,PYR009,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000003,8000000003,"NPI Mismatch","Credentialed NPI mismatch",2026-04-21,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR023010,PRV023,PYR010,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000003,8000000003,"NPI Mismatch","Credentialed NPI mismatch",2026-05-02,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR024001,PRV024,PYR001,ERA,Completed,"Not Required",Approved,No,Pending,2000000004,2000000004,"NPI Match","Clearinghouse portal not updated",2026-01-30,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR024002,PRV024,PYR002,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000004,2000000004,"NPI Match","Medicaid additional enrollment missing",2026-02-10,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR024003,PRV024,PYR003,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000004,2000000004,"NPI Match","No blocker",2026-02-21,2026-03-08,Ready,No,Ready,"Not Applicable"
+ENR024004,PRV024,PYR004,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000004,2000000004,"NPI Match","No blocker",2026-03-04,2026-03-20,Ready,No,Ready,Ready
+ENR024005,PRV024,PYR005,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000004,2000000004,"NPI Match","No blocker",2026-03-15,2026-04-01,Ready,No,Ready,Ready
+ENR024006,PRV024,PYR006,ERA,Completed,"Not Required",Approved,No,Pending,2000000004,2000000004,"NPI Match","Clearinghouse portal not updated",2026-03-26,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR024007,PRV024,PYR007,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000004,2000000004,"NPI Match","Wrong payer ID",2026-04-06,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR024008,PRV024,PYR008,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000004,2000000004,"NPI Match","Medicaid additional enrollment missing",2026-04-17,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR024009,PRV024,PYR009,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000004,1000000024,"NPI Mismatch","Individual NPI used instead of group NPI",2026-04-28,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR024010,PRV024,PYR010,"Claims and ERA","In Progress","Not Started","Not Started",No,"Not Started",2000000004,2000000004,"NPI Match","Credentialing not completed",2026-05-09,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR025001,PRV025,PYR001,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000005,2000000005,"NPI Match","No blocker",2026-02-06,2026-02-20,Ready,No,Ready,Ready
+ENR025002,PRV025,PYR002,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000005,2000000005,"NPI Match","Incorrect PTAN/provider number",2026-02-17,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR025003,PRV025,PYR003,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000005,2000000005,"NPI Match","No blocker",2026-02-28,2026-03-16,Ready,No,Ready,Ready
+ENR025004,PRV025,PYR004,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000005,2000000005,"NPI Match","No blocker",2026-03-11,2026-03-28,Ready,No,Ready,Ready
+ENR025005,PRV025,PYR005,ERA,Completed,"Not Required",Approved,No,Pending,2000000005,2000000005,"NPI Match","Clearinghouse portal not updated",2026-03-22,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR025006,PRV025,PYR006,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000005,2000000005,"NPI Match","No blocker",2026-04-02,2026-04-11,Ready,No,Ready,Ready
+ENR025007,PRV025,PYR007,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000005,2000000005,"NPI Match","Wrong payer ID",2026-04-13,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR025008,PRV025,PYR008,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000005,1000000025,"NPI Mismatch","Individual NPI used instead of group NPI",2026-04-24,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR025009,PRV025,PYR009,"Claims and ERA","In Progress","Not Started","Not Started",No,"Not Started",2000000005,2000000005,"NPI Match","Credentialing not completed",2026-05-05,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR025010,PRV025,PYR010,ERA,Completed,"Not Required",Approved,No,Pending,2000000005,2000000005,"NPI Match","Clearinghouse portal not updated",2026-05-16,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR026001,PRV026,PYR001,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000006,2000000006,"NPI Match","Incorrect PTAN/provider number",2026-02-13,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR026002,PRV026,PYR002,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000006,2000000006,"NPI Match","No blocker",2026-02-24,2026-03-12,Ready,No,Ready,Ready
+ENR026003,PRV026,PYR003,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000006,2000000006,"NPI Match","No blocker",2026-03-07,2026-03-24,Ready,No,Ready,Ready
+ENR026004,PRV026,PYR004,ERA,Completed,"Not Required",Approved,No,Pending,2000000006,2000000006,"NPI Match","Clearinghouse portal not updated",2026-03-18,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR026005,PRV026,PYR005,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000006,2000000006,"NPI Match","No blocker",2026-03-29,2026-04-07,Ready,No,Ready,Ready
+ENR026006,PRV026,PYR006,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000006,2000000006,"NPI Match","No blocker",2026-04-09,2026-04-19,Ready,No,Ready,Ready
+ENR026007,PRV026,PYR007,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000006,1000000026,"NPI Mismatch","Individual NPI used instead of group NPI",2026-04-20,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR026008,PRV026,PYR008,"Claims and ERA","In Progress","Not Started","Not Started",No,"Not Started",2000000006,2000000006,"NPI Match","Credentialing not completed",2026-05-01,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR026009,PRV026,PYR009,ERA,Completed,"Not Required",Approved,No,Pending,2000000006,2000000006,"NPI Match","Clearinghouse portal not updated",2026-05-12,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR026010,PRV026,PYR010,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000006,2000000006,"NPI Match","Missing payer approval",2026-05-23,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR027001,PRV027,PYR001,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000007,2000000007,"NPI Match","No blocker",2026-02-20,2026-03-08,Ready,No,Ready,Ready
+ENR027002,PRV027,PYR002,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000007,2000000007,"NPI Match","No blocker",2026-03-03,2026-03-20,Ready,No,Ready,Ready
+ENR027003,PRV027,PYR003,ERA,Completed,"Not Required",Approved,No,Pending,2000000007,2000000007,"NPI Match","Clearinghouse portal not updated",2026-03-14,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR027004,PRV027,PYR004,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000007,2000000007,"NPI Match","No blocker",2026-03-25,2026-04-03,Ready,No,Ready,Ready
+ENR027005,PRV027,PYR005,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000007,2000000007,"NPI Match","No blocker",2026-04-05,2026-04-15,Ready,No,Ready,Ready
+ENR027006,PRV027,PYR006,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000007,1000000027,"NPI Mismatch","Individual NPI used instead of group NPI",2026-04-16,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR027007,PRV027,PYR007,"Claims and ERA","In Progress","Not Started","Not Started",No,"Not Started",2000000007,2000000007,"NPI Match","Credentialing not completed",2026-04-27,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR027008,PRV027,PYR008,ERA,Completed,"Not Required",Approved,No,Pending,2000000007,2000000007,"NPI Match","Clearinghouse portal not updated",2026-05-08,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR027009,PRV027,PYR009,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000007,2000000007,"NPI Match","Missing payer approval",2026-05-19,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR027010,PRV027,PYR010,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000007,2000000007,"NPI Match","No blocker",2026-05-30,2026-06-14,Ready,No,Ready,Ready
+ENR028001,PRV028,PYR001,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000008,2000000008,"NPI Match","Medicare additional enrollment missing",2026-02-27,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR028002,PRV028,PYR002,ERA,Completed,"Not Required",Approved,No,Pending,2000000008,2000000008,"NPI Match","Clearinghouse portal not updated",2026-03-10,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR028003,PRV028,PYR003,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000008,2000000008,"NPI Match","Wrong payer ID",2026-03-21,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR028004,PRV028,PYR004,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000008,2000000008,"NPI Match","Wrong payer ID",2026-04-01,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR028005,PRV028,PYR005,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000008,1000000028,"NPI Mismatch","Individual NPI used instead of group NPI",2026-04-12,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR028006,PRV028,PYR006,"Claims and ERA","In Progress","Not Started","Not Started",No,"Not Started",2000000008,2000000008,"NPI Match","Credentialing not completed",2026-04-23,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR028007,PRV028,PYR007,ERA,Completed,"Not Required",Approved,No,Pending,2000000008,2000000008,"NPI Match","Clearinghouse portal not updated",2026-05-04,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR028008,PRV028,PYR008,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000008,2000000008,"NPI Match","Incorrect PTAN/provider number",2026-05-15,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR028009,PRV028,PYR009,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000008,2000000008,"NPI Match","Wrong payer ID",2026-05-26,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR028010,PRV028,PYR010,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000008,2000000008,"NPI Match","Wrong payer ID",2026-01-07,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR029001,PRV029,PYR001,ERA,Completed,"Not Required",Approved,No,Pending,2000000009,2000000009,"NPI Match","Clearinghouse portal not updated",2026-03-06,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR029002,PRV029,PYR002,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000009,2000000009,"NPI Match","No blocker",2026-03-17,2026-03-26,Ready,No,Ready,Ready
+ENR029003,PRV029,PYR003,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000009,2000000009,"NPI Match","No blocker",2026-03-28,2026-04-07,Ready,No,Ready,Ready
+ENR029004,PRV029,PYR004,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000009,1000000029,"NPI Mismatch","Individual NPI used instead of group NPI",2026-04-08,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR029005,PRV029,PYR005,"Claims and ERA","In Progress","Not Started","Not Started",No,"Not Started",2000000009,2000000009,"NPI Match","Credentialing not completed",2026-04-19,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR029006,PRV029,PYR006,ERA,Completed,"Not Required",Approved,No,Pending,2000000009,2000000009,"NPI Match","Clearinghouse portal not updated",2026-04-30,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR029007,PRV029,PYR007,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000009,2000000009,"NPI Match","Wrong payer ID",2026-05-11,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR029008,PRV029,PYR008,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000009,2000000009,"NPI Match","No blocker",2026-05-22,2026-06-06,Ready,No,Ready,Ready
+ENR029009,PRV029,PYR009,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000009,2000000009,"NPI Match","No blocker",2026-01-03,2026-01-19,Ready,No,Ready,Ready
+ENR029010,PRV029,PYR010,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000009,2000000009,"NPI Match","No blocker",2026-01-14,2026-01-31,Ready,No,Ready,"Not Applicable"
+ENR030001,PRV030,PYR001,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000010,2000000010,"NPI Match","No blocker",2026-03-13,2026-03-22,Ready,No,Ready,Ready
+ENR030002,PRV030,PYR002,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000010,2000000010,"NPI Match","No blocker",2026-03-24,2026-04-03,Ready,No,Ready,Ready
+ENR030003,PRV030,PYR003,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000010,1000000030,"NPI Mismatch","Individual NPI used instead of group NPI",2026-04-04,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR030004,PRV030,PYR004,"Claims and ERA","In Progress","Not Started","Not Started",No,"Not Started",2000000010,2000000010,"NPI Match","Credentialing not completed",2026-04-15,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR030005,PRV030,PYR005,ERA,Completed,"Not Required",Approved,No,Pending,2000000010,2000000010,"NPI Match","Clearinghouse portal not updated",2026-04-26,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR030006,PRV030,PYR006,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000010,2000000010,"NPI Match","Missing payer approval",2026-05-07,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR030007,PRV030,PYR007,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000010,2000000010,"NPI Match","Wrong payer ID",2026-05-18,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR030008,PRV030,PYR008,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000010,2000000010,"NPI Match","No blocker",2026-05-29,2026-06-14,Ready,No,Ready,Ready
+ENR030009,PRV030,PYR009,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000010,2000000010,"NPI Match","No blocker",2026-01-10,2026-01-27,Ready,No,Ready,"Not Applicable"
+ENR030010,PRV030,PYR010,ERA,Completed,"Not Required",Approved,No,Pending,2000000010,2000000010,"NPI Match","Clearinghouse portal not updated",2026-01-21,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR031001,PRV031,PYR001,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000011,2000000011,"NPI Match","No blocker",2026-03-20,2026-03-30,Ready,No,Ready,Ready
+ENR031002,PRV031,PYR002,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000011,1000000031,"NPI Mismatch","Individual NPI used instead of group NPI",2026-03-31,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR031003,PRV031,PYR003,"Claims and ERA","In Progress","Not Started","Not Started",No,"Not Started",2000000011,2000000011,"NPI Match","Credentialing not completed",2026-04-11,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR031004,PRV031,PYR004,ERA,Completed,"Not Required",Approved,No,Pending,2000000011,2000000011,"NPI Match","Clearinghouse portal not updated",2026-04-22,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR031005,PRV031,PYR005,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000011,2000000011,"NPI Match","Missing payer approval",2026-05-03,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR031006,PRV031,PYR006,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000011,2000000011,"NPI Match","No blocker",2026-05-14,2026-05-29,Ready,No,Ready,Ready
+ENR031007,PRV031,PYR007,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000011,2000000011,"NPI Match","Wrong payer ID",2026-05-25,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR031008,PRV031,PYR008,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000011,2000000011,"NPI Match","No blocker",2026-01-06,2026-01-23,Ready,No,Ready,"Not Applicable"
+ENR031009,PRV031,PYR009,ERA,Completed,"Not Required",Approved,No,Pending,2000000011,2000000011,"NPI Match","Clearinghouse portal not updated",2026-01-17,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR031010,PRV031,PYR010,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000011,2000000011,"NPI Match","No blocker",2026-01-28,2026-02-06,Ready,No,Ready,Ready
+ENR032001,PRV032,PYR001,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000012,1000000032,"NPI Mismatch","Individual NPI used instead of group NPI",2026-03-27,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR032002,PRV032,PYR002,"Claims and ERA","In Progress","Not Started","Not Started",No,"Not Started",2000000012,2000000012,"NPI Match","Credentialing not completed",2026-04-07,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR032003,PRV032,PYR003,ERA,Completed,"Not Required",Approved,No,Pending,2000000012,2000000012,"NPI Match","Clearinghouse portal not updated",2026-04-18,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR032004,PRV032,PYR004,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000012,2000000012,"NPI Match","Missing payer approval",2026-04-29,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR032005,PRV032,PYR005,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000012,2000000012,"NPI Match","No blocker",2026-05-10,2026-05-25,Ready,No,Ready,Ready
+ENR032006,PRV032,PYR006,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000012,2000000012,"NPI Match","No blocker",2026-05-21,2026-06-06,Ready,No,Ready,Ready
+ENR032007,PRV032,PYR007,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000012,2000000012,"NPI Match","Wrong payer ID",2026-01-02,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR032008,PRV032,PYR008,ERA,Completed,"Not Required",Rejected,Yes,"Issue Found",2000000012,2000000012,"NPI Match","Medicaid additional enrollment missing",2026-01-13,NULL,Blocked,Yes,"Not Applicable","Not Ready"
+ENR032009,PRV032,PYR009,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000012,2000000012,"NPI Match","No blocker",2026-01-24,2026-02-02,Ready,No,Ready,Ready
+ENR032010,PRV032,PYR010,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000012,2000000012,"NPI Match","Missing payer approval",2026-02-04,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR033001,PRV033,PYR001,"Claims and ERA","In Progress","Not Started","Not Started",No,"Not Started",2000000013,2000000013,"NPI Match","Credentialing not completed",2026-04-03,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR033002,PRV033,PYR002,ERA,Completed,"Not Required",Approved,No,Pending,2000000013,2000000013,"NPI Match","Clearinghouse portal not updated",2026-04-14,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR033003,PRV033,PYR003,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000013,2000000013,"NPI Match","Missing payer approval",2026-04-25,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR033004,PRV033,PYR004,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000013,2000000013,"NPI Match","No blocker",2026-05-06,2026-05-21,Ready,No,Ready,Ready
+ENR033005,PRV033,PYR005,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000013,2000000013,"NPI Match","No blocker",2026-05-17,2026-06-02,Ready,No,Ready,Ready
+ENR033006,PRV033,PYR006,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000013,2000000013,"NPI Match","No blocker",2026-05-28,2026-06-14,Ready,No,Ready,"Not Applicable"
+ENR033007,PRV033,PYR007,ERA,Completed,"Not Required",Approved,No,Pending,2000000013,2000000013,"NPI Match","Clearinghouse portal not updated",2026-01-09,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR033008,PRV033,PYR008,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000013,2000000013,"NPI Match","No blocker",2026-01-20,2026-01-29,Ready,No,Ready,Ready
+ENR033009,PRV033,PYR009,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000013,2000000013,"NPI Match","Missing payer approval",2026-01-31,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR033010,PRV033,PYR010,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000013,2000000013,"NPI Match","No blocker",2026-02-11,2026-02-22,Ready,No,Ready,Ready
+ENR034001,PRV034,PYR001,ERA,Completed,"Not Required",Approved,No,Pending,2000000014,2000000014,"NPI Match","Clearinghouse portal not updated",2026-04-10,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR034002,PRV034,PYR002,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000014,2000000014,"NPI Match","Incorrect PTAN/provider number",2026-04-21,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR034003,PRV034,PYR003,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000014,2000000014,"NPI Match","No blocker",2026-05-02,2026-05-17,Ready,No,Ready,Ready
+ENR034004,PRV034,PYR004,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000014,2000000014,"NPI Match","No blocker",2026-05-13,2026-05-29,Ready,No,Ready,Ready
+ENR034005,PRV034,PYR005,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000014,2000000014,"NPI Match","No blocker",2026-05-24,2026-06-10,Ready,No,Ready,"Not Applicable"
+ENR034006,PRV034,PYR006,ERA,Completed,"Not Required",Approved,No,Pending,2000000014,2000000014,"NPI Match","Clearinghouse portal not updated",2026-01-05,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR034007,PRV034,PYR007,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000014,2000000014,"NPI Match","Wrong payer ID",2026-01-16,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR034008,PRV034,PYR008,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000014,2000000014,"NPI Match","Missing payer approval",2026-01-27,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR034009,PRV034,PYR009,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000014,2000000014,"NPI Match","No blocker",2026-02-07,2026-02-18,Ready,No,Ready,Ready
+ENR034010,PRV034,PYR010,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000014,1000000034,"NPI Mismatch","Individual NPI used instead of group NPI",2026-02-18,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR035001,PRV035,PYR001,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000015,2000000015,"NPI Match","Incorrect PTAN/provider number",2026-04-17,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR035002,PRV035,PYR002,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000015,2000000015,"NPI Match","Wrong payer ID",2026-04-28,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR035003,PRV035,PYR003,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000015,2000000015,"NPI Match","Wrong payer ID",2026-05-09,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR035004,PRV035,PYR004,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000015,2000000015,"NPI Match","Wrong payer ID",2026-05-20,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR035005,PRV035,PYR005,ERA,Completed,"Not Required",Approved,No,Pending,2000000015,2000000015,"NPI Match","Clearinghouse portal not updated",2026-01-01,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR035006,PRV035,PYR006,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000015,2000000015,"NPI Match","Wrong payer ID",2026-01-12,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR035007,PRV035,PYR007,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000015,2000000015,"NPI Match","Wrong payer ID",2026-01-23,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR035008,PRV035,PYR008,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000015,2000000015,"NPI Match","Wrong payer ID",2026-02-03,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR035009,PRV035,PYR009,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000015,1000000035,"NPI Mismatch","Individual NPI used instead of group NPI",2026-02-14,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR035010,PRV035,PYR010,ERA,Completed,"Not Required",Approved,No,Pending,2000000015,2000000015,"NPI Match","Clearinghouse portal not updated",2026-02-25,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR036001,PRV036,PYR001,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000016,2000000016,"NPI Match","No blocker",2026-04-24,2026-05-09,Ready,No,Ready,Ready
+ENR036002,PRV036,PYR002,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000016,2000000016,"NPI Match","No blocker",2026-05-05,2026-05-21,Ready,No,Ready,Ready
+ENR036003,PRV036,PYR003,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000016,2000000016,"NPI Match","No blocker",2026-05-16,2026-06-02,Ready,No,Ready,"Not Applicable"
+ENR036004,PRV036,PYR004,ERA,Completed,"Not Required",Approved,No,Pending,2000000016,2000000016,"NPI Match","Clearinghouse portal not updated",2026-05-27,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR036005,PRV036,PYR005,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000016,2000000016,"NPI Match","No blocker",2026-01-08,2026-01-17,Ready,No,Ready,Ready
+ENR036006,PRV036,PYR006,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000016,2000000016,"NPI Match","Missing payer approval",2026-01-19,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR036007,PRV036,PYR007,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000016,2000000016,"NPI Match","Wrong payer ID",2026-01-30,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR036008,PRV036,PYR008,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000016,1000000036,"NPI Mismatch","Individual NPI used instead of group NPI",2026-02-10,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR036009,PRV036,PYR009,ERA,Completed,"Not Required",Approved,No,Pending,2000000016,2000000016,"NPI Match","Clearinghouse portal not updated",2026-02-21,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR036010,PRV036,PYR010,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000016,2000000016,"NPI Match","No blocker",2026-03-04,2026-03-18,Ready,No,Ready,Ready
+ENR037001,PRV037,PYR001,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000017,2000000017,"NPI Match","No blocker",2026-05-01,2026-05-17,Ready,No,Ready,Ready
+ENR037002,PRV037,PYR002,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000017,2000000017,"NPI Match","No blocker",2026-05-12,2026-05-29,Ready,No,Ready,"Not Applicable"
+ENR037003,PRV037,PYR003,ERA,Completed,"Not Required",Approved,No,Pending,2000000017,2000000017,"NPI Match","Clearinghouse portal not updated",2026-05-23,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR037004,PRV037,PYR004,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000017,2000000017,"NPI Match","No blocker",2026-01-04,2026-01-13,Ready,No,Ready,Ready
+ENR037005,PRV037,PYR005,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000017,2000000017,"NPI Match","Missing payer approval",2026-01-15,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR037006,PRV037,PYR006,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000017,2000000017,"NPI Match","No blocker",2026-01-26,2026-02-06,Ready,No,Ready,Ready
+ENR037007,PRV037,PYR007,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000017,1000000037,"NPI Mismatch","Individual NPI used instead of group NPI",2026-02-06,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR037008,PRV037,PYR008,ERA,Completed,"Not Required",Rejected,Yes,"Issue Found",2000000017,2000000017,"NPI Match","Incorrect PTAN/provider number",2026-02-17,NULL,Blocked,Yes,"Not Applicable","Not Ready"
+ENR037009,PRV037,PYR009,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000017,2000000017,"NPI Match","No blocker",2026-02-28,2026-03-14,Ready,No,Ready,Ready
+ENR037010,PRV037,PYR010,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000017,2000000017,"NPI Match","No blocker",2026-03-11,2026-03-26,Ready,No,Ready,Ready
+ENR038001,PRV038,PYR001,Claims,Completed,Approved,"Not Required",Yes,Completed,2000000018,2000000018,"NPI Match","No blocker",2026-05-08,2026-05-25,Ready,No,Ready,"Not Applicable"
+ENR038002,PRV038,PYR002,ERA,Completed,"Not Required",Approved,No,Pending,2000000018,2000000018,"NPI Match","Clearinghouse portal not updated",2026-05-19,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR038003,PRV038,PYR003,"Claims and ERA",Completed,Approved,Pending,Yes,"In Progress",2000000018,2000000018,"NPI Match","ERA setup not completed",2026-05-30,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR038004,PRV038,PYR004,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000018,2000000018,"NPI Match","Missing payer approval",2026-01-11,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR038005,PRV038,PYR005,"Claims and ERA",Completed,Approved,Pending,Yes,"In Progress",2000000018,2000000018,"NPI Match","ERA setup not completed",2026-01-22,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR038006,PRV038,PYR006,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000018,1000000038,"NPI Mismatch","Individual NPI used instead of group NPI",2026-02-02,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR038007,PRV038,PYR007,ERA,Completed,"Not Required",Approved,No,Pending,2000000018,2000000018,"NPI Match","Clearinghouse portal not updated",2026-02-13,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR038008,PRV038,PYR008,"Claims and ERA",Completed,Approved,Pending,Yes,"In Progress",2000000018,2000000018,"NPI Match","ERA setup not completed",2026-02-24,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR038009,PRV038,PYR009,"Claims and ERA",Completed,Approved,Pending,Yes,"In Progress",2000000018,2000000018,"NPI Match","ERA setup not completed",2026-03-07,NULL,Pending,Yes,"Not Ready","Not Ready"
+ENR038010,PRV038,PYR010,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000018,2000000018,"NPI Match","Missing payer approval",2026-03-18,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR039001,PRV039,PYR001,ERA,Completed,"Not Required",Approved,No,Pending,2000000019,2000000019,"NPI Match","Clearinghouse portal not updated",2026-05-15,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR039002,PRV039,PYR002,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000019,2000000019,"NPI Match","No blocker",2026-05-26,2026-06-04,Ready,No,Ready,Ready
+ENR039003,PRV039,PYR003,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000019,2000000019,"NPI Match","Missing payer approval",2026-01-07,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR039004,PRV039,PYR004,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000019,2000000019,"NPI Match","No blocker",2026-01-18,2026-01-29,Ready,No,Ready,Ready
+ENR039005,PRV039,PYR005,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000019,1000000039,"NPI Mismatch","Individual NPI used instead of group NPI",2026-01-29,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR039006,PRV039,PYR006,ERA,Completed,"Not Required",Approved,No,Pending,2000000019,2000000019,"NPI Match","Clearinghouse portal not updated",2026-02-09,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR039007,PRV039,PYR007,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000019,2000000019,"NPI Match","Wrong payer ID",2026-02-20,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR039008,PRV039,PYR008,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000019,2000000019,"NPI Match","No blocker",2026-03-03,2026-03-18,Ready,No,Ready,Ready
+ENR039009,PRV039,PYR009,Claims,Completed,Pending,"Not Required",Yes,"In Progress",2000000019,2000000019,"NPI Match","Missing payer approval",2026-03-14,NULL,Pending,Yes,"Not Ready","Not Applicable"
+ENR039010,PRV039,PYR010,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000019,2000000019,"NPI Match","No blocker",2026-03-25,2026-04-11,Ready,No,Ready,Ready
+ENR040001,PRV040,PYR001,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000020,2000000020,"NPI Match","No blocker",2026-05-22,2026-05-31,Ready,No,Ready,Ready
+ENR040002,PRV040,PYR002,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000020,2000000020,"NPI Match","Medicaid additional enrollment missing",2026-01-03,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR040003,PRV040,PYR003,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000020,2000000020,"NPI Match","No blocker",2026-01-14,2026-01-25,Ready,No,Ready,Ready
+ENR040004,PRV040,PYR004,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000020,1000000040,"NPI Mismatch","Individual NPI used instead of group NPI",2026-01-25,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR040005,PRV040,PYR005,ERA,Completed,"Not Required",Approved,No,Pending,2000000020,2000000020,"NPI Match","Clearinghouse portal not updated",2026-02-05,NULL,Pending,Yes,"Not Applicable","Not Ready"
+ENR040006,PRV040,PYR006,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000020,2000000020,"NPI Match","No blocker",2026-02-16,2026-03-02,Ready,No,Ready,Ready
+ENR040007,PRV040,PYR007,"Claims and ERA",Completed,Rejected,Rejected,Yes,"Issue Found",2000000020,2000000020,"NPI Match","Wrong payer ID",2026-02-27,NULL,Blocked,Yes,"Not Ready","Not Ready"
+ENR040008,PRV040,PYR008,Claims,Completed,Rejected,"Not Required",Yes,"Issue Found",2000000020,2000000020,"NPI Match","Medicaid additional enrollment missing",2026-03-10,NULL,Blocked,Yes,"Not Ready","Not Applicable"
+ENR040009,PRV040,PYR009,"Claims and ERA",Completed,Approved,Approved,Yes,Completed,2000000020,2000000020,"NPI Match","No blocker",2026-03-21,2026-04-07,Ready,No,Ready,Ready
+ENR040010,PRV040,PYR010,ERA,Completed,"Not Required",Approved,No,Pending,2000000020,2000000020,"NPI Match","Clearinghouse portal not updated",2026-04-01,NULL,Pending,Yes,"Not Applicable","Not Ready"

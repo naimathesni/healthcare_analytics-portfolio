@@ -1,0 +1,11 @@
+payer_id,payer_name,payer_type,clearinghouse_payer_id,active_flag
+PYR001,Medicare,Medicare,MED001,Yes
+PYR002,Medicaid,Medicaid,MCD002,Yes
+PYR003,"Blue Cross",Commercial,BCBS01,Yes
+PYR004,"United Healthcare",Commercial,UHC001,Yes
+PYR005,Aetna,Commercial,AET001,Yes
+PYR006,Cigna,Commercial,CIG001,Yes
+PYR007,Humana,Commercial,HUM001,Yes
+PYR008,"Molina Healthcare",Medicaid,MOL008,Yes
+PYR009,"Kaiser Permanente",Commercial,KAI009,Yes
+PYR010,Tricare,Commercial,TRI010,Yes
